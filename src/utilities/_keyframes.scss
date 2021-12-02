@@ -1,0 +1,48 @@
+@keyframes btn-light-focus {
+    50% {
+        background-color: darken($light, 10%);
+    }
+}
+
+@keyframes btn-secondary-focus {
+    50% {
+        background-color: $secondary;
+        color: $dark;
+    }
+}
+
+@keyframes btn-primary-focus {
+    50% {
+        background-color: $primary;
+    }
+}
+
+@keyframes btn-success-focus {
+    50% {
+        background-color: $success;
+    }
+}
+
+@keyframes btn-danger-focus {
+    50% {
+        background-color: $danger;
+    }
+}
+
+@keyframes btn-warning-focus {
+    50% {
+        background-color: $warning;
+    }
+}
+
+@keyframes btn-info-focus {
+    50% {
+        background-color: $info;
+    }
+}
+
+@keyframes btn-dark-focus {
+    50% {
+        background-color: $dark;
+    }
+}
