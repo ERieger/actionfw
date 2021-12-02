@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "sass ./src/main.scss ./dist/actionfw.css",
+    "sass-watch": "sass --watch ./src/main.scss ./dist/actionfw.css"
   },
   "repository": {
     "type": "git",
