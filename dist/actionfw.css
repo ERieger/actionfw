@@ -85,6 +85,9 @@ h1 {
 .btn.btn-dark:hover {
   background-color: #383f45;
 }
+.btn.rounded {
+  border-radius: 50rem;
+}
 
 html {
   font-size: 10px;
@@ -170,6 +173,9 @@ h1 {
 }
 .btn.btn-dark:hover {
   background-color: #383f45;
+}
+.btn.rounded {
+  border-radius: 50rem;
 }
 
 * {
