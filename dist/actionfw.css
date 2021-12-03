@@ -23,7 +23,6 @@ h1 {
 @keyframes btn-secondary-focus {
   50% {
     background-color: #889099;
-    color: #212529;
   }
 }
 @keyframes btn-primary-focus {
@@ -84,7 +83,17 @@ h1 {
 }
 .btn-outline {
   border: #889099 solid 0.1rem;
-  background-color: none;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
+.btn-outline:hover {
+  background-color: #889099;
+  color: #f7f7f7;
+}
+.btn-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 .btn.btn-primary {
   background-color: #087fff;
@@ -113,6 +122,32 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-primary-outline {
+  background-color: #087fff;
+  color: #f7f7f7;
+  border: #087fff solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-primary-outline:hover {
+  background-color: #0066d4;
+}
+.btn.btn-primary-outline:focus {
+  animation: btn-primary-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #55a7ff;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-primary-outline:hover {
+  background-color: #087fff;
+  color: #f7f7f7;
+}
+.btn.btn-primary-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
 .btn.btn-secondary {
   background-color: #889099;
   color: #f7f7f7;
@@ -139,6 +174,32 @@ h1 {
   box-shadow: 0 0 0 3px #a3aab1;
   padding: 1rem 2.8rem;
   margin: 1.2rem;
+}
+.btn.btn-secondary-outline {
+  background-color: #889099;
+  color: #f7f7f7;
+  border: #889099 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-secondary-outline:hover {
+  background-color: #6e7680;
+}
+.btn.btn-secondary-outline:focus {
+  animation: btn-secondary-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #a3aab1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-secondary-outline:hover {
+  background-color: #889099;
+  color: #f7f7f7;
+}
+.btn.btn-secondary-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 .btn.btn-success {
   background-color: #5aa336;
@@ -167,6 +228,32 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-success-outline {
+  background-color: #5aa336;
+  color: #f7f7f7;
+  border: #5aa336 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-success-outline:hover {
+  background-color: #457d29;
+}
+.btn.btn-success-outline:focus {
+  animation: btn-success-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #80c95c;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-success-outline:hover {
+  background-color: #5aa336;
+  color: #f7f7f7;
+}
+.btn.btn-success-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
 .btn.btn-danger {
   background-color: #cf3419;
   color: #f7f7f7;
@@ -193,6 +280,32 @@ h1 {
   box-shadow: 0 0 0 3px #e9634b;
   padding: 1rem 2.8rem;
   margin: 1.2rem;
+}
+.btn.btn-danger-outline {
+  background-color: #cf3419;
+  color: #f7f7f7;
+  border: #cf3419 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-danger-outline:hover {
+  background-color: #a12914;
+}
+.btn.btn-danger-outline:focus {
+  animation: btn-danger-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #e9634b;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-danger-outline:hover {
+  background-color: #cf3419;
+  color: #f7f7f7;
+}
+.btn.btn-danger-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 .btn.btn-warning {
   background-color: #e8ae25;
@@ -221,6 +334,32 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-warning-outline {
+  background-color: #e8ae25;
+  color: #f7f7f7;
+  border: #e8ae25 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-warning-outline:hover {
+  background-color: #c59115;
+}
+.btn.btn-warning-outline:focus {
+  animation: btn-warning-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #efc86a;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-warning-outline:hover {
+  background-color: #e8ae25;
+  color: #f7f7f7;
+}
+.btn.btn-warning-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
 .btn.btn-info {
   background-color: #3aa2d3;
   color: #f7f7f7;
@@ -247,6 +386,32 @@ h1 {
   box-shadow: 0 0 0 3px #79c0e1;
   padding: 1rem 2.8rem;
   margin: 1.2rem;
+}
+.btn.btn-info-outline {
+  background-color: #3aa2d3;
+  color: #f7f7f7;
+  border: #3aa2d3 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-info-outline:hover {
+  background-color: #2886b2;
+}
+.btn.btn-info-outline:focus {
+  animation: btn-info-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #79c0e1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-info-outline:hover {
+  background-color: #3aa2d3;
+  color: #f7f7f7;
+}
+.btn.btn-info-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 .btn.btn-light {
   background-color: #f7f7f7;
@@ -275,6 +440,32 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-light-outline {
+  background-color: #f7f7f7;
+  color: #212529;
+  border: #889099 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-light-outline:hover {
+  background-color: #eaeaea;
+}
+.btn.btn-light-outline:focus {
+  animation: btn-light-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #dedede;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-light-outline:hover {
+  background-color: #eaeaea;
+  color: #212529;
+}
+.btn.btn-light-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
 .btn.btn-dark {
   background-color: #212529;
   color: #f7f7f7;
@@ -301,6 +492,32 @@ h1 {
   box-shadow: 0 0 0 3px #434b53;
   padding: 1rem 2.8rem;
   margin: 1.2rem;
+}
+.btn.btn-dark-outline {
+  background-color: #212529;
+  color: #f7f7f7;
+  border: #212529 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-dark-outline:hover {
+  background-color: #0a0c0d;
+}
+.btn.btn-dark-outline:focus {
+  animation: btn-dark-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #434b53;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-dark-outline:hover {
+  background-color: #212529;
+  color: #f7f7f7;
+}
+.btn.btn-dark-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 
 html {
@@ -341,7 +558,17 @@ h1 {
 }
 .btn-outline {
   border: #889099 solid 0.1rem;
-  background-color: none;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
+.btn-outline:hover {
+  background-color: #889099;
+  color: #f7f7f7;
+}
+.btn-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 .btn.btn-primary {
   background-color: #087fff;
@@ -370,6 +597,32 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-primary-outline {
+  background-color: #087fff;
+  color: #f7f7f7;
+  border: #087fff solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-primary-outline:hover {
+  background-color: #0066d4;
+}
+.btn.btn-primary-outline:focus {
+  animation: btn-primary-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #55a7ff;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-primary-outline:hover {
+  background-color: #087fff;
+  color: #f7f7f7;
+}
+.btn.btn-primary-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
 .btn.btn-secondary {
   background-color: #889099;
   color: #f7f7f7;
@@ -396,6 +649,32 @@ h1 {
   box-shadow: 0 0 0 3px #a3aab1;
   padding: 1rem 2.8rem;
   margin: 1.2rem;
+}
+.btn.btn-secondary-outline {
+  background-color: #889099;
+  color: #f7f7f7;
+  border: #889099 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-secondary-outline:hover {
+  background-color: #6e7680;
+}
+.btn.btn-secondary-outline:focus {
+  animation: btn-secondary-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #a3aab1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-secondary-outline:hover {
+  background-color: #889099;
+  color: #f7f7f7;
+}
+.btn.btn-secondary-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 .btn.btn-success {
   background-color: #5aa336;
@@ -424,6 +703,32 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-success-outline {
+  background-color: #5aa336;
+  color: #f7f7f7;
+  border: #5aa336 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-success-outline:hover {
+  background-color: #457d29;
+}
+.btn.btn-success-outline:focus {
+  animation: btn-success-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #80c95c;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-success-outline:hover {
+  background-color: #5aa336;
+  color: #f7f7f7;
+}
+.btn.btn-success-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
 .btn.btn-danger {
   background-color: #cf3419;
   color: #f7f7f7;
@@ -450,6 +755,32 @@ h1 {
   box-shadow: 0 0 0 3px #e9634b;
   padding: 1rem 2.8rem;
   margin: 1.2rem;
+}
+.btn.btn-danger-outline {
+  background-color: #cf3419;
+  color: #f7f7f7;
+  border: #cf3419 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-danger-outline:hover {
+  background-color: #a12914;
+}
+.btn.btn-danger-outline:focus {
+  animation: btn-danger-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #e9634b;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-danger-outline:hover {
+  background-color: #cf3419;
+  color: #f7f7f7;
+}
+.btn.btn-danger-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 .btn.btn-warning {
   background-color: #e8ae25;
@@ -478,6 +809,32 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-warning-outline {
+  background-color: #e8ae25;
+  color: #f7f7f7;
+  border: #e8ae25 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-warning-outline:hover {
+  background-color: #c59115;
+}
+.btn.btn-warning-outline:focus {
+  animation: btn-warning-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #efc86a;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-warning-outline:hover {
+  background-color: #e8ae25;
+  color: #f7f7f7;
+}
+.btn.btn-warning-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
 .btn.btn-info {
   background-color: #3aa2d3;
   color: #f7f7f7;
@@ -504,6 +861,32 @@ h1 {
   box-shadow: 0 0 0 3px #79c0e1;
   padding: 1rem 2.8rem;
   margin: 1.2rem;
+}
+.btn.btn-info-outline {
+  background-color: #3aa2d3;
+  color: #f7f7f7;
+  border: #3aa2d3 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-info-outline:hover {
+  background-color: #2886b2;
+}
+.btn.btn-info-outline:focus {
+  animation: btn-info-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #79c0e1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-info-outline:hover {
+  background-color: #3aa2d3;
+  color: #f7f7f7;
+}
+.btn.btn-info-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 .btn.btn-light {
   background-color: #f7f7f7;
@@ -532,6 +915,32 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-light-outline {
+  background-color: #f7f7f7;
+  color: #212529;
+  border: #889099 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-light-outline:hover {
+  background-color: #eaeaea;
+}
+.btn.btn-light-outline:focus {
+  animation: btn-light-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #dedede;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-light-outline:hover {
+  background-color: #eaeaea;
+  color: #212529;
+}
+.btn.btn-light-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+}
 .btn.btn-dark {
   background-color: #212529;
   color: #f7f7f7;
@@ -558,6 +967,32 @@ h1 {
   box-shadow: 0 0 0 3px #434b53;
   padding: 1rem 2.8rem;
   margin: 1.2rem;
+}
+.btn.btn-dark-outline {
+  background-color: #212529;
+  color: #f7f7f7;
+  border: #212529 solid 0.1rem;
+  background-color: transparent;
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
+  color: #212529;
+}
+.btn.btn-dark-outline:hover {
+  background-color: #0a0c0d;
+}
+.btn.btn-dark-outline:focus {
+  animation: btn-dark-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #434b53;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-dark-outline:hover {
+  background-color: #212529;
+  color: #f7f7f7;
+}
+.btn.btn-dark-outline:focus {
+  padding: 1rem 2.7rem;
+  margin: 1.1rem;
 }
 
 * {

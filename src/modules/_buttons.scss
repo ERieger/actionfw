@@ -146,7 +146,17 @@
 
     &-outline {
         border: $secondary solid .1rem;
-        background-color: none;
+        background-color: transparent;
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+        &:hover {
+            background-color: $secondary;
+            color: $light
+        }
+        &:focus {
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+        }
     }
 
     &.btn-primary {
@@ -155,6 +165,23 @@
         &-rounded {
             @include btn-primary;
             @include btn-rounded;
+        }
+
+        &-outline {
+            @include btn-primary;
+            border: $primary solid .1rem;
+            background-color: transparent;
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+            color: $dark;
+            &:hover {
+                background-color: $primary;
+                color: $light
+            }
+            &:focus {
+                padding: 1rem 2.7rem;
+                margin: 1.1rem;
+            }
         }
     }
 
@@ -165,6 +192,23 @@
             @include btn-secondary;
             @include btn-rounded;
         }
+
+        &-outline {
+            @include btn-secondary;
+            border: $secondary solid .1rem;
+            background-color: transparent;
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+            color: $dark;
+            &:hover {
+                background-color: $secondary;
+                color: $light
+            }
+            &:focus {
+                padding: 1rem 2.7rem;
+                margin: 1.1rem;
+            }
+        }
     }
 
     &.btn-success {
@@ -173,6 +217,23 @@
         &-rounded {
             @include btn-success;
             @include btn-rounded;
+        }
+
+        &-outline {
+            @include btn-success;
+            border: $success solid .1rem;
+            background-color: transparent;
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+            color: $dark;
+            &:hover {
+                background-color: $success;
+                color: $light
+            }
+            &:focus {
+                padding: 1rem 2.7rem;
+                margin: 1.1rem;
+            }
         }
     }
 
@@ -183,6 +244,23 @@
             @include btn-danger;
             @include btn-rounded;
         }
+
+        &-outline {
+            @include btn-danger;
+            border: $danger solid .1rem;
+            background-color: transparent;
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+            color: $dark;
+            &:hover {
+                background-color: $danger;
+                color: $light
+            }
+            &:focus {
+                padding: 1rem 2.7rem;
+                margin: 1.1rem;
+            }
+        }
     }
 
     &.btn-warning {
@@ -191,6 +269,23 @@
         &-rounded {
             @include btn-warning;
             @include btn-rounded;
+        }
+
+        &-outline {
+            @include btn-warning;
+            border: $warning solid .1rem;
+            background-color: transparent;
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+            color: $dark;
+            &:hover {
+                background-color: $warning;
+                color: $light
+            }
+            &:focus {
+                padding: 1rem 2.7rem;
+                margin: 1.1rem;
+            }
         }
     }
 
@@ -201,6 +296,23 @@
             @include btn-info;
             @include btn-rounded;
         }
+
+        &-outline {
+            @include btn-info;
+            border: $info solid .1rem;
+            background-color: transparent;
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+            color: $dark;
+            &:hover {
+                background-color: $info;
+                color: $light
+            }
+            &:focus {
+                padding: 1rem 2.7rem;
+                margin: 1.1rem;
+            }
+        }
     }
 
     &.btn-light {
@@ -210,6 +322,23 @@
             @include btn-light;
             @include btn-rounded;
         }
+
+        &-outline {
+            @include btn-light;
+            border: $secondary solid .1rem;
+            background-color: transparent;
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+            color: $dark;
+            &:hover {
+                background-color: darken($light, 5%);
+                color: $dark
+            }
+            &:focus {
+                padding: 1rem 2.7rem;
+                margin: 1.1rem;
+            }
+        }
     }
 
     &.btn-dark {
@@ -218,6 +347,23 @@
         &-rounded {
             @include btn-dark;
             @include btn-rounded;
+        }
+
+        &-outline {
+            @include btn-dark;
+            border: $dark solid .1rem;
+            background-color: transparent;
+            padding: 1rem 2.7rem;
+            margin: 1.1rem;
+            color: $dark;
+            &:hover {
+                background-color: $dark;
+                color: $light
+            }
+            &:focus {
+                padding: 1rem 2.7rem;
+                margin: 1.1rem;
+            }
         }
     }
 }
