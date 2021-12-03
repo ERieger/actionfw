@@ -1,7 +1,9 @@
+//Round button edges
 @mixin btn-rounded {
     border-radius: 50rem;
 }
 
+// Button styles
 @mixin btn-primary {
     background-color: $primary;
     color: $light;
@@ -114,7 +116,160 @@
     }
 }
 
+// Outline button styles
+@mixin btn-outline {
+    border: $secondary solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    &:hover {
+        background-color: $secondary;
+        color: $light
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
+@mixin btn-primary-outline {
+    @include btn-primary;
+    border: $primary solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    color: $dark;
+    &:hover {
+        background-color: $primary;
+        color: $light
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
+@mixin btn-secondary-outline {
+    @include btn-secondary;
+    border: $secondary solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    color: $dark;
+    &:hover {
+        background-color: $secondary;
+        color: $light
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
+@mixin btn-success-outline {
+    @include btn-success;
+    border: $success solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    color: $dark;
+    &:hover {
+        background-color: $success;
+        color: $light
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
+@mixin btn-danger-outline {
+    @include btn-danger;
+    border: $danger solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    color: $dark;
+    &:hover {
+        background-color: $danger;
+        color: $light
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
+@mixin btn-warning-outline {
+    @include btn-warning;
+    border: $warning solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    color: $dark;
+    &:hover {
+        background-color: $warning;
+        color: $light
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
+@mixin btn-info-outline {
+    @include btn-info;
+    border: $info solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    color: $dark;
+    &:hover {
+        background-color: $info;
+        color: $light
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
+@mixin btn-light-outline {
+    @include btn-light;
+    border: $secondary solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    color: $dark;
+    &:hover {
+        background-color: darken($light, 5%);
+        color: $dark
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
+@mixin btn-dark-outline {
+    @include btn-dark;
+    border: $dark solid .1rem;
+    background-color: transparent;
+    padding: 1rem 2.7rem;
+    margin: 1.1rem;
+    color: $dark;
+    &:hover {
+        background-color: $dark;
+        color: $light
+    }
+    &:focus {
+        padding: 1rem 2.7rem;
+        margin: 1.1rem;
+    }
+}
+
 .btn {
+    // Define default buttons
     transition: .2s;
     padding: 1.2rem 3rem;
     margin: 1rem;
@@ -152,19 +307,20 @@
         }
     }
 
+    // First button commented (same for the rest)
     &.btn-primary {
-        @include btn-primary;
+        @include btn-primary; // Standard button
 
         &-rounded {
-            @include btn-primary;
-            @include btn-rounded;
+            @include btn-primary; // Standard button
+            @include btn-rounded; // Rounded edges
         }
 
         &-outline {
-            @include btn-primary-outline;
+            @include btn-primary-outline; // Outline button
             &-rounded {
-                @include btn-rounded;
-                @include btn-primary-outline;
+                @include btn-rounded; // Rounded edges
+                @include btn-primary-outline; // Outline button
             }
         }
     }
