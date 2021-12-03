@@ -10,6 +10,11 @@ h1 {
   padding: 0.5rem 1.5rem;
 }
 
+@keyframes btn-default-focus {
+  50% {
+    background-color: #dedede;
+  }
+}
 @keyframes btn-light-focus {
   50% {
     background-color: #dedede;
@@ -68,6 +73,19 @@ h1 {
 .btn:hover {
   background-color: #eaeaea;
 }
+.btn:focus {
+  animation: btn-default-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #d1d1d1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn-rounded {
+  border-radius: 50rem;
+}
+.btn-outline {
+  border: #889099 solid 0.1rem;
+  background-color: none;
+}
 .btn.btn-primary {
   background-color: #087fff;
   color: #f7f7f7;
@@ -76,6 +94,20 @@ h1 {
   background-color: #0066d4;
 }
 .btn.btn-primary:focus {
+  animation: btn-primary-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #55a7ff;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-primary-rounded {
+  background-color: #087fff;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-primary-rounded:hover {
+  background-color: #0066d4;
+}
+.btn.btn-primary-rounded:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
   padding: 1rem 2.8rem;
@@ -94,6 +126,20 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-secondary-rounded {
+  background-color: #889099;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-secondary-rounded:hover {
+  background-color: #6e7680;
+}
+.btn.btn-secondary-rounded:focus {
+  animation: btn-secondary-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #a3aab1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
 .btn.btn-success {
   background-color: #5aa336;
   color: #f7f7f7;
@@ -102,6 +148,20 @@ h1 {
   background-color: #457d29;
 }
 .btn.btn-success:focus {
+  animation: btn-success-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #80c95c;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-success-rounded {
+  background-color: #5aa336;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-success-rounded:hover {
+  background-color: #457d29;
+}
+.btn.btn-success-rounded:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
   padding: 1rem 2.8rem;
@@ -120,6 +180,20 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-danger-rounded {
+  background-color: #cf3419;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-danger-rounded:hover {
+  background-color: #a12914;
+}
+.btn.btn-danger-rounded:focus {
+  animation: btn-danger-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #e9634b;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
 .btn.btn-warning {
   background-color: #e8ae25;
   color: #f7f7f7;
@@ -128,6 +202,20 @@ h1 {
   background-color: #c59115;
 }
 .btn.btn-warning:focus {
+  animation: btn-warning-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #efc86a;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-warning-rounded {
+  background-color: #e8ae25;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-warning-rounded:hover {
+  background-color: #c59115;
+}
+.btn.btn-warning-rounded:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
   padding: 1rem 2.8rem;
@@ -146,6 +234,20 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-info-rounded {
+  background-color: #3aa2d3;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-info-rounded:hover {
+  background-color: #2886b2;
+}
+.btn.btn-info-rounded:focus {
+  animation: btn-info-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #79c0e1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
 .btn.btn-light {
   background-color: #f7f7f7;
   color: #212529;
@@ -154,6 +256,20 @@ h1 {
   background-color: #eaeaea;
 }
 .btn.btn-light:focus {
+  animation: btn-light-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #dedede;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-light-rounded {
+  background-color: #f7f7f7;
+  color: #212529;
+  border-radius: 50rem;
+}
+.btn.btn-light-rounded:hover {
+  background-color: #eaeaea;
+}
+.btn.btn-light-rounded:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
   padding: 1rem 2.8rem;
@@ -172,8 +288,19 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
-.btn.rounded {
+.btn.btn-dark-rounded {
+  background-color: #212529;
+  color: #f7f7f7;
   border-radius: 50rem;
+}
+.btn.btn-dark-rounded:hover {
+  background-color: #0a0c0d;
+}
+.btn.btn-dark-rounded:focus {
+  animation: btn-dark-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #434b53;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
 }
 
 html {
@@ -203,6 +330,19 @@ h1 {
 .btn:hover {
   background-color: #eaeaea;
 }
+.btn:focus {
+  animation: btn-default-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #d1d1d1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn-rounded {
+  border-radius: 50rem;
+}
+.btn-outline {
+  border: #889099 solid 0.1rem;
+  background-color: none;
+}
 .btn.btn-primary {
   background-color: #087fff;
   color: #f7f7f7;
@@ -211,6 +351,20 @@ h1 {
   background-color: #0066d4;
 }
 .btn.btn-primary:focus {
+  animation: btn-primary-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #55a7ff;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-primary-rounded {
+  background-color: #087fff;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-primary-rounded:hover {
+  background-color: #0066d4;
+}
+.btn.btn-primary-rounded:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
   padding: 1rem 2.8rem;
@@ -229,6 +383,20 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-secondary-rounded {
+  background-color: #889099;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-secondary-rounded:hover {
+  background-color: #6e7680;
+}
+.btn.btn-secondary-rounded:focus {
+  animation: btn-secondary-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #a3aab1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
 .btn.btn-success {
   background-color: #5aa336;
   color: #f7f7f7;
@@ -237,6 +405,20 @@ h1 {
   background-color: #457d29;
 }
 .btn.btn-success:focus {
+  animation: btn-success-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #80c95c;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-success-rounded {
+  background-color: #5aa336;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-success-rounded:hover {
+  background-color: #457d29;
+}
+.btn.btn-success-rounded:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
   padding: 1rem 2.8rem;
@@ -255,6 +437,20 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-danger-rounded {
+  background-color: #cf3419;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-danger-rounded:hover {
+  background-color: #a12914;
+}
+.btn.btn-danger-rounded:focus {
+  animation: btn-danger-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #e9634b;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
 .btn.btn-warning {
   background-color: #e8ae25;
   color: #f7f7f7;
@@ -263,6 +459,20 @@ h1 {
   background-color: #c59115;
 }
 .btn.btn-warning:focus {
+  animation: btn-warning-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #efc86a;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-warning-rounded {
+  background-color: #e8ae25;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-warning-rounded:hover {
+  background-color: #c59115;
+}
+.btn.btn-warning-rounded:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
   padding: 1rem 2.8rem;
@@ -281,6 +491,20 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
+.btn.btn-info-rounded {
+  background-color: #3aa2d3;
+  color: #f7f7f7;
+  border-radius: 50rem;
+}
+.btn.btn-info-rounded:hover {
+  background-color: #2886b2;
+}
+.btn.btn-info-rounded:focus {
+  animation: btn-info-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #79c0e1;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
 .btn.btn-light {
   background-color: #f7f7f7;
   color: #212529;
@@ -289,6 +513,20 @@ h1 {
   background-color: #eaeaea;
 }
 .btn.btn-light:focus {
+  animation: btn-light-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #dedede;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
+}
+.btn.btn-light-rounded {
+  background-color: #f7f7f7;
+  color: #212529;
+  border-radius: 50rem;
+}
+.btn.btn-light-rounded:hover {
+  background-color: #eaeaea;
+}
+.btn.btn-light-rounded:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
   padding: 1rem 2.8rem;
@@ -307,8 +545,19 @@ h1 {
   padding: 1rem 2.8rem;
   margin: 1.2rem;
 }
-.btn.rounded {
+.btn.btn-dark-rounded {
+  background-color: #212529;
+  color: #f7f7f7;
   border-radius: 50rem;
+}
+.btn.btn-dark-rounded:hover {
+  background-color: #0a0c0d;
+}
+.btn.btn-dark-rounded:focus {
+  animation: btn-dark-focus 0.3s linear;
+  box-shadow: 0 0 0 3px #434b53;
+  padding: 1rem 2.8rem;
+  margin: 1.2rem;
 }
 
 * {

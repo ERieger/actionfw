@@ -1,3 +1,119 @@
+@mixin btn-rounded {
+    border-radius: 50rem;
+}
+
+@mixin btn-primary {
+    background-color: $primary;
+    color: $light;
+    &:hover {
+        background-color: darken($primary, 10%);
+    }
+    &:focus {
+        animation: btn-primary-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px lighten($primary, 15%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
+}
+
+@mixin btn-secondary {
+    background-color: $secondary;
+    color: $light;
+    &:hover {
+        background-color: darken($secondary, 10%);
+    }
+    &:focus {
+        animation: btn-secondary-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px lighten($secondary, 10%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
+}
+
+@mixin btn-success {
+    background-color: $success;
+    color: $light;
+    &:hover {
+        background-color: darken($success, 10%);
+    }
+    &:focus {
+        animation: btn-success-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px lighten($success, 15%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
+}
+
+@mixin btn-danger {
+    background-color: $danger;
+    color: $light;
+    &:hover {
+        background-color: darken($danger, 10%);
+    }
+    &:focus {
+        animation: btn-danger-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px lighten($danger, 15%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
+}
+
+@mixin btn-warning {
+    background-color: $warning;
+    color: $light;
+    &:hover {
+        background-color: darken($warning, 10%);
+    }
+    &:focus {
+        animation: btn-warning-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px lighten($warning, 15%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
+}
+
+@mixin btn-info {
+    background-color: $info;
+    color: $light;
+    &:hover {
+        background-color: darken($info, 10%);
+    }
+    &:focus {
+        animation: btn-info-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px lighten($info, 15%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
+}
+
+@mixin btn-light {
+    background-color: $light;
+    color: $dark;
+    &:hover {
+        background-color: darken($light, 5%);
+    }
+    &:focus {
+        animation: btn-light-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px darken($light, 10%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
+}
+
+@mixin btn-dark {
+    background-color: $dark;
+    color: $light;
+    &:hover {
+        background-color: darken($dark, 10%);
+    }
+    &:focus {
+        animation: btn-dark-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px lighten($dark, 15%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
+}
+
 .btn {
     transition: .2s;
     padding: 1.2rem 3rem;
@@ -17,123 +133,91 @@
         background-color: darken($light, 5%);
     }
 
-    &.outline {
+    &:focus {
+        animation: btn-default-focus $btn-press-timing linear;
+        box-shadow: 0 0 0 3px darken($light, 15%);
+        padding: 1rem 2.8rem;
+        margin: 1.2rem;
+    }
 
+    &-rounded {
+        @include btn-rounded;
+    }
+
+    &-outline {
+        border: $secondary solid .1rem;
+        background-color: none;
     }
 
     &.btn-primary {
-        background-color: $primary;
-        color: $light;
-        &:hover {
-            background-color: darken($primary, 10%);
-        }
-        &:focus {
-            animation: btn-primary-focus $btn-press-timing linear;
-            box-shadow: 0 0 0 3px lighten($primary, 15%);
-            padding: 1rem 2.8rem;
-            margin: 1.2rem;
+        @include btn-primary;
+
+        &-rounded {
+            @include btn-primary;
+            @include btn-rounded;
         }
     }
 
     &.btn-secondary {
-        background-color: $secondary;
-        color: $light;
-        &:hover {
-            background-color: darken($secondary, 10%);
-        }
-        &:focus {
-            animation: btn-secondary-focus $btn-press-timing linear;
-            box-shadow: 0 0 0 3px lighten($secondary, 10%);
-            padding: 1rem 2.8rem;
-            margin: 1.2rem;
+        @include btn-secondary;
+
+        &-rounded {
+            @include btn-secondary;
+            @include btn-rounded;
         }
     }
 
     &.btn-success {
-        background-color: $success;
-        color: $light;
-        &:hover {
-            background-color: darken($success, 10%);
-        }
-        &:focus {
-            animation: btn-success-focus $btn-press-timing linear;
-            box-shadow: 0 0 0 3px lighten($success, 15%);
-            padding: 1rem 2.8rem;
-            margin: 1.2rem;
+        @include btn-success;
+
+        &-rounded {
+            @include btn-success;
+            @include btn-rounded;
         }
     }
 
     &.btn-danger {
-        background-color: $danger;
-        color: $light;
-        &:hover {
-            background-color: darken($danger, 10%);
-        }
-        &:focus {
-            animation: btn-danger-focus $btn-press-timing linear;
-            box-shadow: 0 0 0 3px lighten($danger, 15%);
-            padding: 1rem 2.8rem;
-            margin: 1.2rem;
+        @include btn-danger;
+
+        &-rounded {
+            @include btn-danger;
+            @include btn-rounded;
         }
     }
 
     &.btn-warning {
-        background-color: $warning;
-        color: $light;
-        &:hover {
-            background-color: darken($warning, 10%);
-        }
-        &:focus {
-            animation: btn-warning-focus $btn-press-timing linear;
-            box-shadow: 0 0 0 3px lighten($warning, 15%);
-            padding: 1rem 2.8rem;
-            margin: 1.2rem;
+        @include btn-warning;
+
+        &-rounded {
+            @include btn-warning;
+            @include btn-rounded;
         }
     }
 
     &.btn-info {
-        background-color: $info;
-        color: $light;
-        &:hover {
-            background-color: darken($info, 10%);
-        }
-        &:focus {
-            animation: btn-info-focus $btn-press-timing linear;
-            box-shadow: 0 0 0 3px lighten($info, 15%);
-            padding: 1rem 2.8rem;
-            margin: 1.2rem;
+        @include btn-info;
+
+        &-rounded {
+            @include btn-info;
+            @include btn-rounded;
         }
     }
 
     &.btn-light {
-        background-color: $light;
-        color: $dark;
-        &:hover {
-            background-color: darken($light, 5%);
-        }
-        &:focus {
-            animation: btn-light-focus $btn-press-timing linear;
-            box-shadow: 0 0 0 3px darken($light, 10%);
-            padding: 1rem 2.8rem;
-            margin: 1.2rem;
+        @include btn-light;
+
+        &-rounded {
+            @include btn-light;
+            @include btn-rounded;
         }
     }
 
     &.btn-dark {
-        background-color: $dark;
-        color: $light;
-        &:hover {
-            background-color: darken($dark, 10%);
-        }
-        &:focus {
-            animation: btn-dark-focus $btn-press-timing linear;
-            box-shadow: 0 0 0 3px lighten($dark, 15%);
-            padding: 1rem 2.8rem;
-            margin: 1.2rem;
-        }
-    }
+        @include btn-dark;
 
-    &.rounded {
-        border-radius: 50rem;
+        &-rounded {
+            @include btn-dark;
+            @include btn-rounded;
+        }
     }
 }

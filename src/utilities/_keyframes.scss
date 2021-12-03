@@ -1,3 +1,9 @@
+@keyframes btn-default-focus {
+    50% {
+        background-color: darken($light, 10%);
+    }
+}
+
 @keyframes btn-light-focus {
     50% {
         background-color: darken($light, 10%);
