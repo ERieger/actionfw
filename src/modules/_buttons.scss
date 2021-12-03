@@ -120,6 +120,7 @@
 @mixin btn-outline {
     border: $secondary solid .1rem;
     background-color: transparent;
+    color: $secondary;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
     &:hover {
@@ -136,9 +137,9 @@
     @include btn-primary;
     border: $primary solid .1rem;
     background-color: transparent;
+    color: $primary;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
-    color: $dark;
     &:hover {
         background-color: $primary;
         color: $light
@@ -153,9 +154,9 @@
     @include btn-secondary;
     border: $secondary solid .1rem;
     background-color: transparent;
+    color: $secondary;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
-    color: $dark;
     &:hover {
         background-color: $secondary;
         color: $light
@@ -170,9 +171,9 @@
     @include btn-success;
     border: $success solid .1rem;
     background-color: transparent;
+    color: $success;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
-    color: $dark;
     &:hover {
         background-color: $success;
         color: $light
@@ -187,9 +188,9 @@
     @include btn-danger;
     border: $danger solid .1rem;
     background-color: transparent;
+    color: $danger;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
-    color: $dark;
     &:hover {
         background-color: $danger;
         color: $light
@@ -204,9 +205,9 @@
     @include btn-warning;
     border: $warning solid .1rem;
     background-color: transparent;
+    color: $warning;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
-    color: $dark;
     &:hover {
         background-color: $warning;
         color: $light
@@ -221,9 +222,9 @@
     @include btn-info;
     border: $info solid .1rem;
     background-color: transparent;
+    color: $info;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
-    color: $dark;
     &:hover {
         background-color: $info;
         color: $light
@@ -238,9 +239,9 @@
     @include btn-light;
     border: $secondary solid .1rem;
     background-color: transparent;
+    color: $secondary;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
-    color: $dark;
     &:hover {
         background-color: darken($light, 5%);
         color: $dark
@@ -255,9 +256,9 @@
     @include btn-dark;
     border: $dark solid .1rem;
     background-color: transparent;
+    color: $dark;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
-    color: $dark;
     &:hover {
         background-color: $dark;
         color: $light
