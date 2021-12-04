@@ -9,6 +9,9 @@
 @import "utilities/functions";
 @import "utilities/flex";
 
+// MODULE MIXINS
+@import "modules/mixins/buttons-mixins";
+
 // Modules
 @import "modules/buttons";
 @import "modules/labels";
