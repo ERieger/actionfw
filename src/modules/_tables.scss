@@ -52,4 +52,26 @@
             background-color: $secondary;
         }
     }
+
+    &.table-border {
+        th {
+            border: $light solid 0.05rem;
+            border-bottom: $light solid 0.05rem;
+        }
+        td {
+            border: $light solid 0.05rem;
+        }
+    }
+
+    &.table-hover {
+        tbody tr:hover {
+            background-color: $light;
+        }
+
+        &.table-dark {
+            tbody tr:hover {
+                background-color: lighten($dark, 5%);
+            }
+        }
+    }
 }
