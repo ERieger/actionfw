@@ -127,10 +127,6 @@ h1 {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
 }
-.btn.btn-primary:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-primary-rounded {
   background-color: #087fff;
   color: #f7f7f7;
@@ -146,10 +142,6 @@ h1 {
 .btn.btn-primary-rounded:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-}
-.btn.btn-primary-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-primary-outline {
   background-color: #087fff;
@@ -170,10 +162,6 @@ h1 {
 .btn.btn-primary-outline:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-}
-.btn.btn-primary-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-primary-outline:hover {
   background-color: #087fff;
@@ -200,10 +188,6 @@ h1 {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
 }
-.btn.btn-primary-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-primary-outline-rounded:hover {
   background-color: #087fff;
   color: #f7f7f7;
@@ -223,10 +207,6 @@ h1 {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
 }
-.btn.btn-secondary:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-secondary-rounded {
   background-color: #889099;
   color: #f7f7f7;
@@ -242,10 +222,6 @@ h1 {
 .btn.btn-secondary-rounded:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-}
-.btn.btn-secondary-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-secondary-outline {
   background-color: #889099;
@@ -266,10 +242,6 @@ h1 {
 .btn.btn-secondary-outline:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-}
-.btn.btn-secondary-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-secondary-outline:hover {
   background-color: #889099;
@@ -296,10 +268,6 @@ h1 {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
 }
-.btn.btn-secondary-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-secondary-outline-rounded:hover {
   background-color: #889099;
   color: #f7f7f7;
@@ -319,10 +287,6 @@ h1 {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
 }
-.btn.btn-success:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-success-rounded {
   background-color: #5aa336;
   color: #f7f7f7;
@@ -338,10 +302,6 @@ h1 {
 .btn.btn-success-rounded:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-}
-.btn.btn-success-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-success-outline {
   background-color: #5aa336;
@@ -362,10 +322,6 @@ h1 {
 .btn.btn-success-outline:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-}
-.btn.btn-success-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-success-outline:hover {
   background-color: #5aa336;
@@ -392,10 +348,6 @@ h1 {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
 }
-.btn.btn-success-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-success-outline-rounded:hover {
   background-color: #5aa336;
   color: #f7f7f7;
@@ -415,10 +367,6 @@ h1 {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
 }
-.btn.btn-danger:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-danger-rounded {
   background-color: #cf3419;
   color: #f7f7f7;
@@ -434,10 +382,6 @@ h1 {
 .btn.btn-danger-rounded:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-}
-.btn.btn-danger-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-danger-outline {
   background-color: #cf3419;
@@ -458,10 +402,6 @@ h1 {
 .btn.btn-danger-outline:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-}
-.btn.btn-danger-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-danger-outline:hover {
   background-color: #cf3419;
@@ -488,10 +428,6 @@ h1 {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
 }
-.btn.btn-danger-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-danger-outline-rounded:hover {
   background-color: #cf3419;
   color: #f7f7f7;
@@ -511,10 +447,6 @@ h1 {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
 }
-.btn.btn-warning:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-warning-rounded {
   background-color: #e8ae25;
   color: #f7f7f7;
@@ -530,10 +462,6 @@ h1 {
 .btn.btn-warning-rounded:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-}
-.btn.btn-warning-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-warning-outline {
   background-color: #e8ae25;
@@ -554,10 +482,6 @@ h1 {
 .btn.btn-warning-outline:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-}
-.btn.btn-warning-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-warning-outline:hover {
   background-color: #e8ae25;
@@ -584,10 +508,6 @@ h1 {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
 }
-.btn.btn-warning-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-warning-outline-rounded:hover {
   background-color: #e8ae25;
   color: #f7f7f7;
@@ -607,10 +527,6 @@ h1 {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
 }
-.btn.btn-info:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-info-rounded {
   background-color: #3aa2d3;
   color: #f7f7f7;
@@ -626,10 +542,6 @@ h1 {
 .btn.btn-info-rounded:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-}
-.btn.btn-info-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-info-outline {
   background-color: #3aa2d3;
@@ -650,10 +562,6 @@ h1 {
 .btn.btn-info-outline:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-}
-.btn.btn-info-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-info-outline:hover {
   background-color: #3aa2d3;
@@ -680,10 +588,6 @@ h1 {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
 }
-.btn.btn-info-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-info-outline-rounded:hover {
   background-color: #3aa2d3;
   color: #f7f7f7;
@@ -703,10 +607,6 @@ h1 {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
 }
-.btn.btn-light:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-light-rounded {
   background-color: #f7f7f7;
   color: #212529;
@@ -722,10 +622,6 @@ h1 {
 .btn.btn-light-rounded:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-}
-.btn.btn-light-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-light-outline {
   background-color: #f7f7f7;
@@ -746,10 +642,6 @@ h1 {
 .btn.btn-light-outline:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-}
-.btn.btn-light-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-light-outline:hover {
   background-color: #eaeaea;
@@ -776,10 +668,6 @@ h1 {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
 }
-.btn.btn-light-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-light-outline-rounded:hover {
   background-color: #eaeaea;
   color: #212529;
@@ -799,10 +687,6 @@ h1 {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
 }
-.btn.btn-dark:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-dark-rounded {
   background-color: #212529;
   color: #f7f7f7;
@@ -818,10 +702,6 @@ h1 {
 .btn.btn-dark-rounded:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-}
-.btn.btn-dark-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-dark-outline {
   background-color: #212529;
@@ -842,10 +722,6 @@ h1 {
 .btn.btn-dark-outline:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-}
-.btn.btn-dark-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-dark-outline:hover {
   background-color: #212529;
@@ -871,10 +747,6 @@ h1 {
 .btn.btn-dark-outline-rounded:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-}
-.btn.btn-dark-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-dark-outline-rounded:hover {
   background-color: #212529;
@@ -963,10 +835,6 @@ h1 {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
 }
-.btn.btn-primary:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-primary-rounded {
   background-color: #087fff;
   color: #f7f7f7;
@@ -982,10 +850,6 @@ h1 {
 .btn.btn-primary-rounded:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-}
-.btn.btn-primary-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-primary-outline {
   background-color: #087fff;
@@ -1006,10 +870,6 @@ h1 {
 .btn.btn-primary-outline:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-}
-.btn.btn-primary-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-primary-outline:hover {
   background-color: #087fff;
@@ -1036,10 +896,6 @@ h1 {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
 }
-.btn.btn-primary-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-primary-outline-rounded:hover {
   background-color: #087fff;
   color: #f7f7f7;
@@ -1059,10 +915,6 @@ h1 {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
 }
-.btn.btn-secondary:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-secondary-rounded {
   background-color: #889099;
   color: #f7f7f7;
@@ -1078,10 +930,6 @@ h1 {
 .btn.btn-secondary-rounded:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-}
-.btn.btn-secondary-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-secondary-outline {
   background-color: #889099;
@@ -1102,10 +950,6 @@ h1 {
 .btn.btn-secondary-outline:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-}
-.btn.btn-secondary-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-secondary-outline:hover {
   background-color: #889099;
@@ -1132,10 +976,6 @@ h1 {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
 }
-.btn.btn-secondary-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-secondary-outline-rounded:hover {
   background-color: #889099;
   color: #f7f7f7;
@@ -1155,10 +995,6 @@ h1 {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
 }
-.btn.btn-success:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-success-rounded {
   background-color: #5aa336;
   color: #f7f7f7;
@@ -1174,10 +1010,6 @@ h1 {
 .btn.btn-success-rounded:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-}
-.btn.btn-success-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-success-outline {
   background-color: #5aa336;
@@ -1198,10 +1030,6 @@ h1 {
 .btn.btn-success-outline:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-}
-.btn.btn-success-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-success-outline:hover {
   background-color: #5aa336;
@@ -1228,10 +1056,6 @@ h1 {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
 }
-.btn.btn-success-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-success-outline-rounded:hover {
   background-color: #5aa336;
   color: #f7f7f7;
@@ -1251,10 +1075,6 @@ h1 {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
 }
-.btn.btn-danger:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-danger-rounded {
   background-color: #cf3419;
   color: #f7f7f7;
@@ -1270,10 +1090,6 @@ h1 {
 .btn.btn-danger-rounded:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-}
-.btn.btn-danger-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-danger-outline {
   background-color: #cf3419;
@@ -1294,10 +1110,6 @@ h1 {
 .btn.btn-danger-outline:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-}
-.btn.btn-danger-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-danger-outline:hover {
   background-color: #cf3419;
@@ -1324,10 +1136,6 @@ h1 {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
 }
-.btn.btn-danger-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-danger-outline-rounded:hover {
   background-color: #cf3419;
   color: #f7f7f7;
@@ -1347,10 +1155,6 @@ h1 {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
 }
-.btn.btn-warning:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-warning-rounded {
   background-color: #e8ae25;
   color: #f7f7f7;
@@ -1366,10 +1170,6 @@ h1 {
 .btn.btn-warning-rounded:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-}
-.btn.btn-warning-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-warning-outline {
   background-color: #e8ae25;
@@ -1390,10 +1190,6 @@ h1 {
 .btn.btn-warning-outline:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-}
-.btn.btn-warning-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-warning-outline:hover {
   background-color: #e8ae25;
@@ -1420,10 +1216,6 @@ h1 {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
 }
-.btn.btn-warning-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-warning-outline-rounded:hover {
   background-color: #e8ae25;
   color: #f7f7f7;
@@ -1443,10 +1235,6 @@ h1 {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
 }
-.btn.btn-info:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-info-rounded {
   background-color: #3aa2d3;
   color: #f7f7f7;
@@ -1462,10 +1250,6 @@ h1 {
 .btn.btn-info-rounded:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-}
-.btn.btn-info-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-info-outline {
   background-color: #3aa2d3;
@@ -1486,10 +1270,6 @@ h1 {
 .btn.btn-info-outline:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-}
-.btn.btn-info-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-info-outline:hover {
   background-color: #3aa2d3;
@@ -1516,10 +1296,6 @@ h1 {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
 }
-.btn.btn-info-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-info-outline-rounded:hover {
   background-color: #3aa2d3;
   color: #f7f7f7;
@@ -1539,10 +1315,6 @@ h1 {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
 }
-.btn.btn-light:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-light-rounded {
   background-color: #f7f7f7;
   color: #212529;
@@ -1558,10 +1330,6 @@ h1 {
 .btn.btn-light-rounded:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-}
-.btn.btn-light-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-light-outline {
   background-color: #f7f7f7;
@@ -1582,10 +1350,6 @@ h1 {
 .btn.btn-light-outline:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-}
-.btn.btn-light-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-light-outline:hover {
   background-color: #eaeaea;
@@ -1612,10 +1376,6 @@ h1 {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
 }
-.btn.btn-light-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-light-outline-rounded:hover {
   background-color: #eaeaea;
   color: #212529;
@@ -1635,10 +1395,6 @@ h1 {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
 }
-.btn.btn-dark:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
-}
 .btn.btn-dark-rounded {
   background-color: #212529;
   color: #f7f7f7;
@@ -1654,10 +1410,6 @@ h1 {
 .btn.btn-dark-rounded:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-}
-.btn.btn-dark-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-dark-outline {
   background-color: #212529;
@@ -1678,10 +1430,6 @@ h1 {
 .btn.btn-dark-outline:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-}
-.btn.btn-dark-outline:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-dark-outline:hover {
   background-color: #212529;
@@ -1707,10 +1455,6 @@ h1 {
 .btn.btn-dark-outline-rounded:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-}
-.btn.btn-dark-outline-rounded:focus.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-dark-outline-rounded:hover {
   background-color: #212529;

@@ -33,7 +33,6 @@
     &:focus {
         animation: btn-primary-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($primary, 15%);
-        @include btn-sm;
     }
 }
 
@@ -48,7 +47,6 @@
     &:focus {
         animation: btn-secondary-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($secondary, 10%);
-        @include btn-sm;
     }
 }
 
@@ -63,7 +61,6 @@
     &:focus {
         animation: btn-success-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($success, 15%);
-        @include btn-sm;
     }
 }
 
@@ -78,7 +75,6 @@
     &:focus {
         animation: btn-danger-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($danger, 15%);
-        @include btn-sm;
     }
 }
 
@@ -93,7 +89,6 @@
     &:focus {
         animation: btn-warning-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($warning, 15%);
-        @include btn-sm;
     }
 }
 
@@ -108,7 +103,6 @@
     &:focus {
         animation: btn-info-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($info, 15%);
-        @include btn-sm;
     }
 }
 
@@ -123,7 +117,6 @@
     &:focus {
         animation: btn-light-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px darken($light, 10%);
-        @include btn-sm;
     }
 }
 
@@ -138,7 +131,6 @@
     &:focus {
         animation: btn-dark-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($dark, 15%);
-        @include btn-sm;
     }
 }
 
