@@ -1,10 +1,16 @@
+// NOTE: The rounded buttons are slightly bigger as they still have a fixed size in each itteration. Create a mixin with the general size and replace the size definition in each of the -outline sections. This will remove quite a few unneccesary lines of code.
+//
+// Also investigate moving redundant definitions to the the general button definiton section.
+//
+// Could also move the mixins to a seperate button mixins file although it may be better to have them in the same file to allow easy removal of features in a custom compilation.
+
 // Round button edges
 @mixin btn-rounded {
     border-radius: 50rem;
 }
 
 @mixin btn-std {
-    padding: 1.2rem 3rem;
+    padding: 1rem 2rem;
     margin: 1rem;
 }
 
@@ -297,8 +303,9 @@
 
 .btn {
     // Define default buttons
-    transition: 0.2s;
     @include btn-std;
+    @include btn-sm;
+    transition: 0.2s;
     background-color: $light;
     color: $dark;
     text-decoration: none;
@@ -317,8 +324,8 @@
     &:focus {
         animation: btn-default-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px darken($light, 15%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
+        @include btn-std;
+        @include btn-sm;
     }
 
     &-rounded {
@@ -333,7 +340,6 @@
         }
     }
 
-    @include btn-sm;
 
     // First button commented (same for the rest)
     &.btn-primary {

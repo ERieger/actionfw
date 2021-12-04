@@ -56,9 +56,9 @@ h1 {
   }
 }
 .btn {
-  transition: 0.2s;
-  padding: 1.2rem 3rem;
+  padding: 1rem 2rem;
   margin: 1rem;
+  transition: 0.2s;
   background-color: #f7f7f7;
   color: #212529;
   text-decoration: none;
@@ -69,14 +69,22 @@ h1 {
   font-size: 1.5rem;
   backface-visibility: hidden;
 }
+.btn.btn-sm {
+  padding: 0.4rem 1.5rem;
+  margin: 0.6rem;
+}
 .btn:hover {
   background-color: #eaeaea;
 }
 .btn:focus {
   animation: btn-default-focus 0.3s linear;
   box-shadow: 0 0 0 3px #d1d1d1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+.btn:focus.btn-sm {
+  padding: 0.4rem 1.5rem;
+  margin: 0.6rem;
 }
 .btn-rounded {
   border-radius: 50rem;
@@ -111,10 +119,6 @@ h1 {
 .btn-outline-rounded:focus {
   padding: 1rem 2.7rem;
   margin: 1.1rem;
-}
-.btn.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-primary {
   background-color: #087fff;
@@ -960,9 +964,9 @@ h1 {
 }
 
 .btn {
-  transition: 0.2s;
-  padding: 1.2rem 3rem;
+  padding: 1rem 2rem;
   margin: 1rem;
+  transition: 0.2s;
   background-color: #f7f7f7;
   color: #212529;
   text-decoration: none;
@@ -973,14 +977,22 @@ h1 {
   font-size: 1.5rem;
   backface-visibility: hidden;
 }
+.btn.btn-sm {
+  padding: 0.4rem 1.5rem;
+  margin: 0.6rem;
+}
 .btn:hover {
   background-color: #eaeaea;
 }
 .btn:focus {
   animation: btn-default-focus 0.3s linear;
   box-shadow: 0 0 0 3px #d1d1d1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+.btn:focus.btn-sm {
+  padding: 0.4rem 1.5rem;
+  margin: 0.6rem;
 }
 .btn-rounded {
   border-radius: 50rem;
@@ -1015,10 +1027,6 @@ h1 {
 .btn-outline-rounded:focus {
   padding: 1rem 2.7rem;
   margin: 1.1rem;
-}
-.btn.btn-sm {
-  padding: 0.4rem 1.5rem;
-  margin: 0.6rem;
 }
 .btn.btn-primary {
   background-color: #087fff;
