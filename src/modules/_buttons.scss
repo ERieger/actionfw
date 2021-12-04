@@ -1,4 +1,4 @@
-// Check default definition and see if some from the mixins page can be moved there again will cut down on lines.
+// Add click animation for outline buttons
 
 .btn {
     // Define default buttons
@@ -33,12 +33,15 @@
 
     &-outline {
         @include btn-outline;
+        @include btn-std;
+        @include btn-sm;
         &-rounded {
             @include btn-rounded;
             @include btn-outline;
+            @include btn-std;
+            @include btn-sm;
         }
     }
-
 
     // First button commented (same for the rest)
     &.btn-primary {
