@@ -10,6 +10,13 @@
     border-collapse: collapse; // Prevent double border on cell touch
     font-size: 1.4rem;
 
+    &.table-sm {
+        th,
+        td {
+            padding: .5rem 1rem;
+        }
+    }
+
     thead {
         &.hd-dark {
             background-color: $dark;
