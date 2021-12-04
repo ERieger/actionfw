@@ -3,10 +3,15 @@
     border-radius: 50rem;
 }
 
+@mixin btn-std {
+    padding: 1.2rem 3rem;
+    margin: 1rem;
+}
+
 // Small button
 @mixin btn-sm {
     &.btn-sm {
-        padding: 0.6rem 2rem;
+        padding: 0.4rem 1.5rem;
         margin: 0.6rem;
     }
 }
@@ -23,8 +28,6 @@
     &:focus {
         animation: btn-primary-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($primary, 15%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
         @include btn-sm;
     }
 }
@@ -40,8 +43,6 @@
     &:focus {
         animation: btn-secondary-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($secondary, 10%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
         @include btn-sm;
     }
 }
@@ -57,8 +58,6 @@
     &:focus {
         animation: btn-success-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($success, 15%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
         @include btn-sm;
     }
 }
@@ -74,8 +73,6 @@
     &:focus {
         animation: btn-danger-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($danger, 15%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
         @include btn-sm;
     }
 }
@@ -91,8 +88,6 @@
     &:focus {
         animation: btn-warning-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($warning, 15%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
         @include btn-sm;
     }
 }
@@ -108,8 +103,6 @@
     &:focus {
         animation: btn-info-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($info, 15%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
         @include btn-sm;
     }
 }
@@ -125,8 +118,6 @@
     &:focus {
         animation: btn-light-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px darken($light, 10%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
         @include btn-sm;
     }
 }
@@ -142,8 +133,6 @@
     &:focus {
         animation: btn-dark-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px lighten($dark, 15%);
-        padding: 1rem 2.8rem;
-        margin: 1.2rem;
         @include btn-sm;
     }
 }
@@ -309,8 +298,7 @@
 .btn {
     // Define default buttons
     transition: 0.2s;
-    padding: 1.2rem 3rem;
-    margin: 1rem;
+    @include btn-std;
     background-color: $light;
     color: $dark;
     text-decoration: none;

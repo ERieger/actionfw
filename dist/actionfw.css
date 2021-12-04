@@ -113,7 +113,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary {
@@ -121,7 +121,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-primary.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary:hover {
@@ -130,11 +130,9 @@ h1 {
 .btn.btn-primary:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-primary:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-rounded {
@@ -143,7 +141,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-primary-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-rounded:hover {
@@ -152,11 +150,9 @@ h1 {
 .btn.btn-primary-rounded:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-primary-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline {
@@ -169,7 +165,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-primary-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline:hover {
@@ -178,11 +174,9 @@ h1 {
 .btn.btn-primary-outline:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-primary-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline:hover {
@@ -204,7 +198,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-primary-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline-rounded:hover {
@@ -213,11 +207,9 @@ h1 {
 .btn.btn-primary-outline-rounded:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-primary-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline-rounded:hover {
@@ -233,7 +225,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-secondary.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary:hover {
@@ -242,11 +234,9 @@ h1 {
 .btn.btn-secondary:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-secondary:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-rounded {
@@ -255,7 +245,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-secondary-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-rounded:hover {
@@ -264,11 +254,9 @@ h1 {
 .btn.btn-secondary-rounded:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-secondary-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline {
@@ -281,7 +269,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-secondary-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline:hover {
@@ -290,11 +278,9 @@ h1 {
 .btn.btn-secondary-outline:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-secondary-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline:hover {
@@ -316,7 +302,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-secondary-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline-rounded:hover {
@@ -325,11 +311,9 @@ h1 {
 .btn.btn-secondary-outline-rounded:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-secondary-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline-rounded:hover {
@@ -345,7 +329,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-success.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success:hover {
@@ -354,11 +338,9 @@ h1 {
 .btn.btn-success:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-success:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-rounded {
@@ -367,7 +349,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-success-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-rounded:hover {
@@ -376,11 +358,9 @@ h1 {
 .btn.btn-success-rounded:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-success-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline {
@@ -393,7 +373,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-success-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline:hover {
@@ -402,11 +382,9 @@ h1 {
 .btn.btn-success-outline:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-success-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline:hover {
@@ -428,7 +406,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-success-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline-rounded:hover {
@@ -437,11 +415,9 @@ h1 {
 .btn.btn-success-outline-rounded:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-success-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline-rounded:hover {
@@ -457,7 +433,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-danger.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger:hover {
@@ -466,11 +442,9 @@ h1 {
 .btn.btn-danger:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-danger:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-rounded {
@@ -479,7 +453,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-danger-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-rounded:hover {
@@ -488,11 +462,9 @@ h1 {
 .btn.btn-danger-rounded:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-danger-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline {
@@ -505,7 +477,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-danger-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline:hover {
@@ -514,11 +486,9 @@ h1 {
 .btn.btn-danger-outline:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-danger-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline:hover {
@@ -540,7 +510,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-danger-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline-rounded:hover {
@@ -549,11 +519,9 @@ h1 {
 .btn.btn-danger-outline-rounded:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-danger-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline-rounded:hover {
@@ -569,7 +537,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-warning.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning:hover {
@@ -578,11 +546,9 @@ h1 {
 .btn.btn-warning:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-warning:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-rounded {
@@ -591,7 +557,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-warning-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-rounded:hover {
@@ -600,11 +566,9 @@ h1 {
 .btn.btn-warning-rounded:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-warning-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline {
@@ -617,7 +581,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-warning-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline:hover {
@@ -626,11 +590,9 @@ h1 {
 .btn.btn-warning-outline:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-warning-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline:hover {
@@ -652,7 +614,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-warning-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline-rounded:hover {
@@ -661,11 +623,9 @@ h1 {
 .btn.btn-warning-outline-rounded:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-warning-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline-rounded:hover {
@@ -681,7 +641,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-info.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info:hover {
@@ -690,11 +650,9 @@ h1 {
 .btn.btn-info:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-info:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-rounded {
@@ -703,7 +661,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-info-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-rounded:hover {
@@ -712,11 +670,9 @@ h1 {
 .btn.btn-info-rounded:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-info-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline {
@@ -729,7 +685,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-info-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline:hover {
@@ -738,11 +694,9 @@ h1 {
 .btn.btn-info-outline:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-info-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline:hover {
@@ -764,7 +718,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-info-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline-rounded:hover {
@@ -773,11 +727,9 @@ h1 {
 .btn.btn-info-outline-rounded:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-info-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline-rounded:hover {
@@ -793,7 +745,7 @@ h1 {
   color: #212529;
 }
 .btn.btn-light.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light:hover {
@@ -802,11 +754,9 @@ h1 {
 .btn.btn-light:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-light:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-rounded {
@@ -815,7 +765,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-light-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-rounded:hover {
@@ -824,11 +774,9 @@ h1 {
 .btn.btn-light-rounded:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-light-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline {
@@ -841,7 +789,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-light-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline:hover {
@@ -850,11 +798,9 @@ h1 {
 .btn.btn-light-outline:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-light-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline:hover {
@@ -876,7 +822,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-light-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline-rounded:hover {
@@ -885,11 +831,9 @@ h1 {
 .btn.btn-light-outline-rounded:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-light-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline-rounded:hover {
@@ -905,7 +849,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-dark.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark:hover {
@@ -914,11 +858,9 @@ h1 {
 .btn.btn-dark:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-dark:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-rounded {
@@ -927,7 +869,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-dark-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-rounded:hover {
@@ -936,11 +878,9 @@ h1 {
 .btn.btn-dark-rounded:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-dark-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline {
@@ -953,7 +893,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-dark-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline:hover {
@@ -962,11 +902,9 @@ h1 {
 .btn.btn-dark-outline:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-dark-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline:hover {
@@ -988,7 +926,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-dark-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline-rounded:hover {
@@ -997,11 +935,9 @@ h1 {
 .btn.btn-dark-outline-rounded:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-dark-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline-rounded:hover {
@@ -1081,7 +1017,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary {
@@ -1089,7 +1025,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-primary.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary:hover {
@@ -1098,11 +1034,9 @@ h1 {
 .btn.btn-primary:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-primary:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-rounded {
@@ -1111,7 +1045,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-primary-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-rounded:hover {
@@ -1120,11 +1054,9 @@ h1 {
 .btn.btn-primary-rounded:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-primary-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline {
@@ -1137,7 +1069,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-primary-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline:hover {
@@ -1146,11 +1078,9 @@ h1 {
 .btn.btn-primary-outline:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-primary-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline:hover {
@@ -1172,7 +1102,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-primary-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline-rounded:hover {
@@ -1181,11 +1111,9 @@ h1 {
 .btn.btn-primary-outline-rounded:focus {
   animation: btn-primary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #55a7ff;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-primary-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-primary-outline-rounded:hover {
@@ -1201,7 +1129,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-secondary.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary:hover {
@@ -1210,11 +1138,9 @@ h1 {
 .btn.btn-secondary:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-secondary:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-rounded {
@@ -1223,7 +1149,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-secondary-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-rounded:hover {
@@ -1232,11 +1158,9 @@ h1 {
 .btn.btn-secondary-rounded:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-secondary-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline {
@@ -1249,7 +1173,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-secondary-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline:hover {
@@ -1258,11 +1182,9 @@ h1 {
 .btn.btn-secondary-outline:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-secondary-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline:hover {
@@ -1284,7 +1206,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-secondary-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline-rounded:hover {
@@ -1293,11 +1215,9 @@ h1 {
 .btn.btn-secondary-outline-rounded:focus {
   animation: btn-secondary-focus 0.3s linear;
   box-shadow: 0 0 0 3px #a3aab1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-secondary-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-secondary-outline-rounded:hover {
@@ -1313,7 +1233,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-success.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success:hover {
@@ -1322,11 +1242,9 @@ h1 {
 .btn.btn-success:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-success:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-rounded {
@@ -1335,7 +1253,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-success-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-rounded:hover {
@@ -1344,11 +1262,9 @@ h1 {
 .btn.btn-success-rounded:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-success-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline {
@@ -1361,7 +1277,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-success-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline:hover {
@@ -1370,11 +1286,9 @@ h1 {
 .btn.btn-success-outline:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-success-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline:hover {
@@ -1396,7 +1310,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-success-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline-rounded:hover {
@@ -1405,11 +1319,9 @@ h1 {
 .btn.btn-success-outline-rounded:focus {
   animation: btn-success-focus 0.3s linear;
   box-shadow: 0 0 0 3px #80c95c;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-success-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-success-outline-rounded:hover {
@@ -1425,7 +1337,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-danger.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger:hover {
@@ -1434,11 +1346,9 @@ h1 {
 .btn.btn-danger:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-danger:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-rounded {
@@ -1447,7 +1357,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-danger-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-rounded:hover {
@@ -1456,11 +1366,9 @@ h1 {
 .btn.btn-danger-rounded:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-danger-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline {
@@ -1473,7 +1381,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-danger-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline:hover {
@@ -1482,11 +1390,9 @@ h1 {
 .btn.btn-danger-outline:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-danger-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline:hover {
@@ -1508,7 +1414,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-danger-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline-rounded:hover {
@@ -1517,11 +1423,9 @@ h1 {
 .btn.btn-danger-outline-rounded:focus {
   animation: btn-danger-focus 0.3s linear;
   box-shadow: 0 0 0 3px #e9634b;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-danger-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-danger-outline-rounded:hover {
@@ -1537,7 +1441,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-warning.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning:hover {
@@ -1546,11 +1450,9 @@ h1 {
 .btn.btn-warning:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-warning:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-rounded {
@@ -1559,7 +1461,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-warning-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-rounded:hover {
@@ -1568,11 +1470,9 @@ h1 {
 .btn.btn-warning-rounded:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-warning-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline {
@@ -1585,7 +1485,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-warning-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline:hover {
@@ -1594,11 +1494,9 @@ h1 {
 .btn.btn-warning-outline:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-warning-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline:hover {
@@ -1620,7 +1518,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-warning-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline-rounded:hover {
@@ -1629,11 +1527,9 @@ h1 {
 .btn.btn-warning-outline-rounded:focus {
   animation: btn-warning-focus 0.3s linear;
   box-shadow: 0 0 0 3px #efc86a;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-warning-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-warning-outline-rounded:hover {
@@ -1649,7 +1545,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-info.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info:hover {
@@ -1658,11 +1554,9 @@ h1 {
 .btn.btn-info:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-info:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-rounded {
@@ -1671,7 +1565,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-info-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-rounded:hover {
@@ -1680,11 +1574,9 @@ h1 {
 .btn.btn-info-rounded:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-info-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline {
@@ -1697,7 +1589,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-info-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline:hover {
@@ -1706,11 +1598,9 @@ h1 {
 .btn.btn-info-outline:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-info-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline:hover {
@@ -1732,7 +1622,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-info-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline-rounded:hover {
@@ -1741,11 +1631,9 @@ h1 {
 .btn.btn-info-outline-rounded:focus {
   animation: btn-info-focus 0.3s linear;
   box-shadow: 0 0 0 3px #79c0e1;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-info-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-info-outline-rounded:hover {
@@ -1761,7 +1649,7 @@ h1 {
   color: #212529;
 }
 .btn.btn-light.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light:hover {
@@ -1770,11 +1658,9 @@ h1 {
 .btn.btn-light:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-light:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-rounded {
@@ -1783,7 +1669,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-light-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-rounded:hover {
@@ -1792,11 +1678,9 @@ h1 {
 .btn.btn-light-rounded:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-light-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline {
@@ -1809,7 +1693,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-light-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline:hover {
@@ -1818,11 +1702,9 @@ h1 {
 .btn.btn-light-outline:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-light-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline:hover {
@@ -1844,7 +1726,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-light-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline-rounded:hover {
@@ -1853,11 +1735,9 @@ h1 {
 .btn.btn-light-outline-rounded:focus {
   animation: btn-light-focus 0.3s linear;
   box-shadow: 0 0 0 3px #dedede;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-light-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-light-outline-rounded:hover {
@@ -1873,7 +1753,7 @@ h1 {
   color: #f7f7f7;
 }
 .btn.btn-dark.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark:hover {
@@ -1882,11 +1762,9 @@ h1 {
 .btn.btn-dark:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-dark:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-rounded {
@@ -1895,7 +1773,7 @@ h1 {
   border-radius: 50rem;
 }
 .btn.btn-dark-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-rounded:hover {
@@ -1904,11 +1782,9 @@ h1 {
 .btn.btn-dark-rounded:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-dark-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline {
@@ -1921,7 +1797,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-dark-outline.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline:hover {
@@ -1930,11 +1806,9 @@ h1 {
 .btn.btn-dark-outline:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-dark-outline:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline:hover {
@@ -1956,7 +1830,7 @@ h1 {
   margin: 1.1rem;
 }
 .btn.btn-dark-outline-rounded.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline-rounded:hover {
@@ -1965,11 +1839,9 @@ h1 {
 .btn.btn-dark-outline-rounded:focus {
   animation: btn-dark-focus 0.3s linear;
   box-shadow: 0 0 0 3px #434b53;
-  padding: 1rem 2.8rem;
-  margin: 1.2rem;
 }
 .btn.btn-dark-outline-rounded:focus.btn-sm {
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.6rem;
 }
 .btn.btn-dark-outline-rounded:hover {
