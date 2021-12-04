@@ -1,12 +1,22 @@
-//Round button edges
+// Round button edges
 @mixin btn-rounded {
     border-radius: 50rem;
+}
+
+// Small button
+@mixin btn-sm {
+    &.btn-sm {
+        padding: 0.6rem 2rem;
+        margin: 0.6rem;
+    }
 }
 
 // Button styles
 @mixin btn-primary {
     background-color: $primary;
     color: $light;
+    @include btn-sm;
+
     &:hover {
         background-color: darken($primary, 10%);
     }
@@ -15,12 +25,15 @@
         box-shadow: 0 0 0 3px lighten($primary, 15%);
         padding: 1rem 2.8rem;
         margin: 1.2rem;
+        @include btn-sm;
     }
 }
 
 @mixin btn-secondary {
     background-color: $secondary;
     color: $light;
+    @include btn-sm;
+
     &:hover {
         background-color: darken($secondary, 10%);
     }
@@ -29,12 +42,15 @@
         box-shadow: 0 0 0 3px lighten($secondary, 10%);
         padding: 1rem 2.8rem;
         margin: 1.2rem;
+        @include btn-sm;
     }
 }
 
 @mixin btn-success {
     background-color: $success;
     color: $light;
+    @include btn-sm;
+
     &:hover {
         background-color: darken($success, 10%);
     }
@@ -43,12 +59,15 @@
         box-shadow: 0 0 0 3px lighten($success, 15%);
         padding: 1rem 2.8rem;
         margin: 1.2rem;
+        @include btn-sm;
     }
 }
 
 @mixin btn-danger {
     background-color: $danger;
     color: $light;
+    @include btn-sm;
+
     &:hover {
         background-color: darken($danger, 10%);
     }
@@ -57,12 +76,15 @@
         box-shadow: 0 0 0 3px lighten($danger, 15%);
         padding: 1rem 2.8rem;
         margin: 1.2rem;
+        @include btn-sm;
     }
 }
 
 @mixin btn-warning {
     background-color: $warning;
     color: $light;
+    @include btn-sm;
+
     &:hover {
         background-color: darken($warning, 10%);
     }
@@ -71,12 +93,15 @@
         box-shadow: 0 0 0 3px lighten($warning, 15%);
         padding: 1rem 2.8rem;
         margin: 1.2rem;
+        @include btn-sm;
     }
 }
 
 @mixin btn-info {
     background-color: $info;
     color: $light;
+    @include btn-sm;
+
     &:hover {
         background-color: darken($info, 10%);
     }
@@ -85,12 +110,15 @@
         box-shadow: 0 0 0 3px lighten($info, 15%);
         padding: 1rem 2.8rem;
         margin: 1.2rem;
+        @include btn-sm;
     }
 }
 
 @mixin btn-light {
     background-color: $light;
     color: $dark;
+    @include btn-sm;
+
     &:hover {
         background-color: darken($light, 5%);
     }
@@ -99,12 +127,15 @@
         box-shadow: 0 0 0 3px darken($light, 10%);
         padding: 1rem 2.8rem;
         margin: 1.2rem;
+        @include btn-sm;
     }
 }
 
 @mixin btn-dark {
     background-color: $dark;
     color: $light;
+    @include btn-sm;
+
     &:hover {
         background-color: darken($dark, 10%);
     }
@@ -113,19 +144,21 @@
         box-shadow: 0 0 0 3px lighten($dark, 15%);
         padding: 1rem 2.8rem;
         margin: 1.2rem;
+        @include btn-sm;
     }
 }
 
 // Outline button styles
 @mixin btn-outline {
-    border: $secondary solid .1rem;
+    border: $secondary solid 0.1rem;
     background-color: transparent;
     color: $secondary;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
+
     &:hover {
         background-color: $secondary;
-        color: $light
+        color: $light;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -135,14 +168,15 @@
 
 @mixin btn-primary-outline {
     @include btn-primary;
-    border: $primary solid .1rem;
+    border: $primary solid 0.1rem;
     background-color: transparent;
     color: $primary;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
+
     &:hover {
         background-color: $primary;
-        color: $light
+        color: $light;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -152,14 +186,15 @@
 
 @mixin btn-secondary-outline {
     @include btn-secondary;
-    border: $secondary solid .1rem;
+    border: $secondary solid 0.1rem;
     background-color: transparent;
     color: $secondary;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
+
     &:hover {
         background-color: $secondary;
-        color: $light
+        color: $light;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -169,14 +204,15 @@
 
 @mixin btn-success-outline {
     @include btn-success;
-    border: $success solid .1rem;
+    border: $success solid 0.1rem;
     background-color: transparent;
     color: $success;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
+
     &:hover {
         background-color: $success;
-        color: $light
+        color: $light;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -186,14 +222,15 @@
 
 @mixin btn-danger-outline {
     @include btn-danger;
-    border: $danger solid .1rem;
+    border: $danger solid 0.1rem;
     background-color: transparent;
     color: $danger;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
+
     &:hover {
         background-color: $danger;
-        color: $light
+        color: $light;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -203,14 +240,14 @@
 
 @mixin btn-warning-outline {
     @include btn-warning;
-    border: $warning solid .1rem;
+    border: $warning solid 0.1rem;
     background-color: transparent;
     color: $warning;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
     &:hover {
         background-color: $warning;
-        color: $light
+        color: $light;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -220,14 +257,14 @@
 
 @mixin btn-info-outline {
     @include btn-info;
-    border: $info solid .1rem;
+    border: $info solid 0.1rem;
     background-color: transparent;
     color: $info;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
     &:hover {
         background-color: $info;
-        color: $light
+        color: $light;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -237,14 +274,14 @@
 
 @mixin btn-light-outline {
     @include btn-light;
-    border: $secondary solid .1rem;
+    border: $secondary solid 0.1rem;
     background-color: transparent;
     color: $secondary;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
     &:hover {
         background-color: darken($light, 5%);
-        color: $dark
+        color: $dark;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -254,14 +291,14 @@
 
 @mixin btn-dark-outline {
     @include btn-dark;
-    border: $dark solid .1rem;
+    border: $dark solid 0.1rem;
     background-color: transparent;
     color: $dark;
     padding: 1rem 2.7rem;
     margin: 1.1rem;
     &:hover {
         background-color: $dark;
-        color: $light
+        color: $light;
     }
     &:focus {
         padding: 1rem 2.7rem;
@@ -271,7 +308,7 @@
 
 .btn {
     // Define default buttons
-    transition: .2s;
+    transition: 0.2s;
     padding: 1.2rem 3rem;
     margin: 1rem;
     background-color: $light;
@@ -307,6 +344,8 @@
             @include btn-outline;
         }
     }
+
+    @include btn-sm;
 
     // First button commented (same for the rest)
     &.btn-primary {
