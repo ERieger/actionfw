@@ -1,0 +1,55 @@
+.table {
+    box-sizing: border-box;
+    margin: 1.5rem;
+    max-width: calc(100% - 3rem);
+    width: 100%;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-spacing: 0; // Remove cell spacing
+    border-collapse: collapse; // Prevent double border on cell touch
+    font-size: 1.4rem;
+
+    thead {
+        &.hd-dark {
+            background-color: $dark;
+            color: $light;
+        }
+
+        &.hd-light {
+            background-color: $light;
+            color: $dark;
+        }
+    }
+
+    th {
+        border-bottom: $secondary solid 0.2rem;
+        text-align: left;
+    }
+
+    td {
+        border-bottom: $secondary solid 0.1rem;
+    }
+
+    th,
+    td {
+        padding: 1rem 2rem;
+    }
+
+    &.table-dark {
+        background-color: $dark;
+        color: $light;
+
+        &.table-zebra {
+            tr:nth-child(even) {
+                background-color: lighten($dark, 10%);
+            }
+        }
+    }
+
+    &.table-zebra {
+        tr:nth-child(even) {
+            background-color: $secondary;
+        }
+    }
+}
