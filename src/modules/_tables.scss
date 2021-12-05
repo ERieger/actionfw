@@ -1,3 +1,4 @@
+// For responsive tables to work you need to have min width on the th and td elements.
 .table {
     box-sizing: border-box;
     margin: 1.5rem;
@@ -13,7 +14,7 @@
     &.table-sm {
         th,
         td {
-            padding: .5rem 1rem;
+            padding: 0.5rem 1rem;
         }
     }
 
@@ -41,6 +42,8 @@
     th,
     td {
         padding: 1rem 2rem;
+        min-width: 200px; // CHANGE THIS VALUE TO ONLY APPLY TO TABLE RESPONSIVE
+        overflow-x: visible;
     }
 
     &.table-dark {
@@ -56,7 +59,7 @@
 
     &.table-zebra {
         tr:nth-child(even) {
-            background-color: $secondary;
+            background-color: $light;
         }
     }
 
@@ -72,7 +75,7 @@
 
     &.table-hover {
         tbody tr:hover {
-            background-color: $light;
+            background-color: $secondary;
         }
 
         &.table-dark {
@@ -81,4 +84,9 @@
             }
         }
     }
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: scroll;
 }
