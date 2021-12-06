@@ -799,8 +799,6 @@ h1 {
 .table th,
 .table td {
   padding: 1rem 2rem;
-  min-width: 200px;
-  overflow-x: visible;
 }
 .table.table-dark {
   background-color: #212529;
@@ -829,6 +827,10 @@ h1 {
 .table-responsive {
   width: 100%;
   overflow-x: scroll;
+}
+.table-responsive table th,
+.table-responsive table td {
+  min-width: 15rem;
 }
 
 html {

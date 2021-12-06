@@ -42,8 +42,6 @@
     th,
     td {
         padding: 1rem 2rem;
-        min-width: 200px; // CHANGE THIS VALUE TO ONLY APPLY TO TABLE RESPONSIVE
-        overflow-x: visible;
     }
 
     &.table-dark {
@@ -89,4 +87,11 @@
 .table-responsive {
     width: 100%;
     overflow-x: scroll;
+
+    table {
+        th,
+        td {
+            min-width: 15rem; // CHANGE TO A VARIABLE
+        }
+    }
 }
