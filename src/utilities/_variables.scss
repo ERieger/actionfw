@@ -1,1 +1,11 @@
+// TIMING
 $btn-press-timing: .3s;
+
+// RESPONSIVE BREAKPOINTS
+$bp-xs-max: 600px; // Extra small devices (phones, 600px and down)
+$bp-sm-min: 600px; // Small devices (portrait tablets and large phones, 600px and up)
+$bp-md-min: 768px; // Medium devices (landscape tablets, 786px and up)
+$bp-lg-min: 992px; // Large devices (laptops/desktops, 992px and up)
+$bp-xl-min: 1200px; // Extra large devices (large laptops and desktops, 1200px and up)
+
+// Breakpoints from https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
