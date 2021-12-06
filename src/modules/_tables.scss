@@ -91,7 +91,37 @@
     table {
         th,
         td {
-            min-width: 15rem; // CHANGE TO A VARIABLE
+            min-width: $cell-bp; // CHANGE TO A VARIABLE
+        }
+    }
+
+    &-xs {
+        @media only screen and (max-width: $bp-xs-max) {
+            overflow-x: scroll;
+        }
+    }
+
+    &-sm {
+        @media only screen and (max-width: $bp-sm-min) {
+            overflow-x: scroll;
+        }
+    }
+
+    &-md {
+        @media only screen and (max-width: $bp-md-min) {
+            overflow-x: scroll;
+        }
+    }
+
+    &-lg {
+        @media only screen and (max-width: $bp-lg-min) {
+            overflow-x: scroll;
+        }
+    }
+
+    &-xl {
+        @media only screen and (max-width: $bp-xl-min) {
+            overflow-x: scroll;
         }
     }
 }

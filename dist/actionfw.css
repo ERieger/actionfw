@@ -830,7 +830,32 @@ h1 {
 }
 .table-responsive table th,
 .table-responsive table td {
-  min-width: 15rem;
+  min-width: min-content;
+}
+@media only screen and (max-width: 400px) {
+  .table-responsive-xs {
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .table-responsive-sm {
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .table-responsive-md {
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .table-responsive-lg {
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .table-responsive-xl {
+    overflow-x: scroll;
+  }
 }
 
 html {
