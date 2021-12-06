@@ -781,6 +781,9 @@ h1 {
 .table.table-sm td {
   padding: 0.5rem 1rem;
 }
+.table thead {
+  border-bottom: #afb1b4 solid 0.2rem;
+}
 .table thead.hd-dark {
   background-color: #212529;
   color: #e9e9e9;
@@ -789,16 +792,11 @@ h1 {
   background-color: #e9e9e9;
   color: #212529;
 }
-.table th {
-  border-bottom: #afb1b4 solid 0.2rem;
-  text-align: left;
-}
-.table td {
-  border-bottom: #afb1b4 solid 0.1rem;
-}
 .table th,
 .table td {
   padding: 1rem 2rem;
+  border-bottom: #afb1b4 solid 0.1rem;
+  text-align: left;
 }
 .table.table-dark {
   background-color: #212529;

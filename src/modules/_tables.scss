@@ -19,6 +19,8 @@
     }
 
     thead {
+        border-bottom: $secondary solid 0.2rem;
+
         &.hd-dark {
             background-color: $dark;
             color: $light;
@@ -30,18 +32,11 @@
         }
     }
 
-    th {
-        border-bottom: $secondary solid 0.2rem;
-        text-align: left;
-    }
-
-    td {
-        border-bottom: $secondary solid 0.1rem;
-    }
-
     th,
     td {
         padding: 1rem 2rem;
+        border-bottom: $secondary solid 0.1rem;
+        text-align: left;
     }
 
     &.table-dark {
