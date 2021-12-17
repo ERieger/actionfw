@@ -66,6 +66,18 @@
         }
     }
 
+    &.table-borderless {
+        thead {
+            border: none;
+        }
+        th {
+            border: none;
+        }
+        td {
+            border: none;
+        }
+    }
+
     &.table-hover {
         tbody tr:hover {
             background-color: $secondary;
