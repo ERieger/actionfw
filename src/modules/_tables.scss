@@ -91,6 +91,33 @@
     }
 }
 
+// Colours
+.table-primary {
+    background-color: lighten($primary, 15%);
+}
+.table-secondary {
+    background-color: lighten($secondary, 10%);
+}
+.table-success {
+    background-color: lighten($success, 20%);
+}
+.table-danger {
+    background-color: lighten($danger, 20%);
+}
+.table-warning {
+    background-color: lighten($warning, 20%);
+}
+.table-info {
+    background-color: lighten($info, 15%);
+}
+.table-light {
+    background-color: $light;
+}
+.table-dark {
+    background-color: $dark;
+    color: $light;
+}
+
 .table-responsive {
     width: 100%;
     overflow-x: auto;
