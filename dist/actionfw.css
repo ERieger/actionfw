@@ -830,6 +830,14 @@ h1 {
 .table.table-hover.table-dark tbody tr:hover {
   background-color: #2c3237;
 }
+.table caption {
+  padding: 2rem;
+  padding-left: 0;
+  caption-side: bottom;
+  text-align: left;
+  font-style: italic;
+  color: #7a7e83;
+}
 
 .table-primary {
   background-color: #55a7ff;

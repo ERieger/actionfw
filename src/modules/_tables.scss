@@ -89,6 +89,15 @@
             }
         }
     }
+
+    caption {
+        padding: 2rem;
+        padding-left: 0;
+        caption-side: bottom;
+        text-align: left;
+        font-style: italic;
+        color: darken($secondary, 20%);
+    }
 }
 
 // Colours
