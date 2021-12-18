@@ -10,3 +10,67 @@ h1 {
     font-size: 3.2rem;
     padding: .5rem 1.5rem;
 }
+
+h2 {
+    font-size: 2.4rem;
+    padding: .5rem 1.5rem;
+}
+
+h3 {
+    font-size: 1.872rem;
+    padding: .5rem 1.5rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+    padding: .5rem 1.5rem;
+}
+
+h5 {
+    font-size: 1.328rem;
+    padding: .5rem 1.5rem;
+}
+
+h6 {
+    font-size: 1.072rem;
+    padding: .5rem 1.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+    padding: .5rem 1.5rem;
+}
+
+.text {
+    &-primary {
+        color: $primary;
+    }
+
+    &-secondary {
+        color: $secondary;
+    }
+
+    &-success {
+        color: $success;
+    }
+
+    &-danger {
+        color: $danger;
+    }
+
+    &-warning {
+        color: $warning;
+    }
+
+    &-info {
+        color: $info;
+    }
+
+    &-light {
+        color: $light;
+    }
+
+    &-dark {
+        color: $dark;
+    }
+}

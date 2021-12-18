@@ -10,6 +10,61 @@ h1 {
   padding: 0.5rem 1.5rem;
 }
 
+h2 {
+  font-size: 2.4rem;
+  padding: 0.5rem 1.5rem;
+}
+
+h3 {
+  font-size: 1.872rem;
+  padding: 0.5rem 1.5rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  padding: 0.5rem 1.5rem;
+}
+
+h5 {
+  font-size: 1.328rem;
+  padding: 0.5rem 1.5rem;
+}
+
+h6 {
+  font-size: 1.072rem;
+  padding: 0.5rem 1.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.text-primary {
+  color: #087fff;
+}
+.text-secondary {
+  color: #afb1b4;
+}
+.text-success {
+  color: #5aa336;
+}
+.text-danger {
+  color: #cf3419;
+}
+.text-warning {
+  color: #e8ae25;
+}
+.text-info {
+  color: #3aa2d3;
+}
+.text-light {
+  color: #e9e9e9;
+}
+.text-dark {
+  color: #212529;
+}
+
 @keyframes btn-default-focus {
   50% {
     background-color: #d0d0d0;
@@ -1013,6 +1068,61 @@ html {
 h1 {
   font-size: 3.2rem;
   padding: 0.5rem 1.5rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  padding: 0.5rem 1.5rem;
+}
+
+h3 {
+  font-size: 1.872rem;
+  padding: 0.5rem 1.5rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  padding: 0.5rem 1.5rem;
+}
+
+h5 {
+  font-size: 1.328rem;
+  padding: 0.5rem 1.5rem;
+}
+
+h6 {
+  font-size: 1.072rem;
+  padding: 0.5rem 1.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.text-primary {
+  color: #087fff;
+}
+.text-secondary {
+  color: #afb1b4;
+}
+.text-success {
+  color: #5aa336;
+}
+.text-danger {
+  color: #cf3419;
+}
+.text-warning {
+  color: #e8ae25;
+}
+.text-info {
+  color: #3aa2d3;
+}
+.text-light {
+  color: #e9e9e9;
+}
+.text-dark {
+  color: #212529;
 }
 
 .btn {
