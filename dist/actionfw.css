@@ -764,6 +764,105 @@ h1 {
   background-color: #212529;
   color: #e9e9e9;
 }
+.btn:disabled {
+  pointer-events: none;
+  color: #c3c3c3;
+}
+.btn:disabled.btn-primary {
+  background-color: #55a7ff;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-primary-outline {
+  background-color: transparent;
+  border: #55a7ff solid 0.1rem;
+  color: #55a7ff;
+}
+.btn:disabled.btn-primary-outline:hover {
+  color: #55a7ff;
+}
+.btn:disabled.btn-secondary {
+  background-color: #d6d7d9;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-secondary-outline {
+  background-color: transparent;
+  border: #d6d7d9 solid 0.1rem;
+  color: #d6d7d9;
+}
+.btn:disabled.btn-secondary-outline:hover {
+  color: #d6d7d9;
+}
+.btn:disabled.btn-success {
+  background-color: #80c95c;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-success-outline {
+  background-color: transparent;
+  border: #80c95c solid 0.1rem;
+  color: #80c95c;
+}
+.btn:disabled.btn-success-outline:hover {
+  color: #80c95c;
+}
+.btn:disabled.btn-danger {
+  background-color: #e9634b;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-danger-outline {
+  background-color: transparent;
+  border: #e9634b solid 0.1rem;
+  color: #e9634b;
+}
+.btn:disabled.btn-danger-outline:hover {
+  color: #e9634b;
+}
+.btn:disabled.btn-warning {
+  background-color: #efc86a;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-warning-outline {
+  background-color: transparent;
+  border: #efc86a solid 0.1rem;
+  color: #efc86a;
+}
+.btn:disabled.btn-warning-outline:hover {
+  color: #efc86a;
+}
+.btn:disabled.btn-info {
+  background-color: #79c0e1;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-info-outline {
+  background-color: transparent;
+  border: #79c0e1 solid 0.1rem;
+  color: #79c0e1;
+}
+.btn:disabled.btn-info-outline:hover {
+  color: #79c0e1;
+}
+.btn:disabled.btn-light {
+  background-color: #e9e9e9;
+}
+.btn:disabled.btn-light-outline {
+  background-color: transparent;
+  border: #e9e9e9 solid 0.1rem;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-light-outline:hover {
+  color: #e9e9e9;
+}
+.btn:disabled.btn-dark {
+  background-color: #434b53;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-dark-outline {
+  background-color: transparent;
+  border: #434b53 solid 0.1rem;
+  color: #434b53;
+}
+.btn:disabled.btn-dark-outline:hover {
+  color: #434b53;
+}
 
 .table {
   box-sizing: border-box;
@@ -1624,6 +1723,105 @@ h1 {
 .btn.btn-dark-outline-rounded:hover {
   background-color: #212529;
   color: #e9e9e9;
+}
+.btn:disabled {
+  pointer-events: none;
+  color: #c3c3c3;
+}
+.btn:disabled.btn-primary {
+  background-color: #55a7ff;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-primary-outline {
+  background-color: transparent;
+  border: #55a7ff solid 0.1rem;
+  color: #55a7ff;
+}
+.btn:disabled.btn-primary-outline:hover {
+  color: #55a7ff;
+}
+.btn:disabled.btn-secondary {
+  background-color: #d6d7d9;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-secondary-outline {
+  background-color: transparent;
+  border: #d6d7d9 solid 0.1rem;
+  color: #d6d7d9;
+}
+.btn:disabled.btn-secondary-outline:hover {
+  color: #d6d7d9;
+}
+.btn:disabled.btn-success {
+  background-color: #80c95c;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-success-outline {
+  background-color: transparent;
+  border: #80c95c solid 0.1rem;
+  color: #80c95c;
+}
+.btn:disabled.btn-success-outline:hover {
+  color: #80c95c;
+}
+.btn:disabled.btn-danger {
+  background-color: #e9634b;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-danger-outline {
+  background-color: transparent;
+  border: #e9634b solid 0.1rem;
+  color: #e9634b;
+}
+.btn:disabled.btn-danger-outline:hover {
+  color: #e9634b;
+}
+.btn:disabled.btn-warning {
+  background-color: #efc86a;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-warning-outline {
+  background-color: transparent;
+  border: #efc86a solid 0.1rem;
+  color: #efc86a;
+}
+.btn:disabled.btn-warning-outline:hover {
+  color: #efc86a;
+}
+.btn:disabled.btn-info {
+  background-color: #79c0e1;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-info-outline {
+  background-color: transparent;
+  border: #79c0e1 solid 0.1rem;
+  color: #79c0e1;
+}
+.btn:disabled.btn-info-outline:hover {
+  color: #79c0e1;
+}
+.btn:disabled.btn-light {
+  background-color: #e9e9e9;
+}
+.btn:disabled.btn-light-outline {
+  background-color: transparent;
+  border: #e9e9e9 solid 0.1rem;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-light-outline:hover {
+  color: #e9e9e9;
+}
+.btn:disabled.btn-dark {
+  background-color: #434b53;
+  color: #e9e9e9;
+}
+.btn:disabled.btn-dark-outline {
+  background-color: transparent;
+  border: #434b53 solid 0.1rem;
+  color: #434b53;
+}
+.btn:disabled.btn-dark-outline:hover {
+  color: #434b53;
 }
 
 * {

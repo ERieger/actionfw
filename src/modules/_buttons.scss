@@ -179,4 +179,120 @@
             }
         }
     }
+
+    &:disabled {
+        pointer-events: none;
+        color: darken($light, 15%);
+        // First button commented (same for the rest)
+        &.btn-primary {
+            background-color: lighten($primary, 15%);
+            color: $light;
+
+            &-outline {
+                background-color: transparent;
+                border: lighten($primary, 15%) solid 0.1rem;
+                color: lighten($primary, 15%);
+                &:hover {
+                    color: lighten($primary, 15%);
+                }
+            }
+        }
+
+        &.btn-secondary {
+            background-color: lighten($secondary, 15%);
+            color: $light;
+
+            &-outline {
+                background-color: transparent;
+                border: lighten($secondary, 15%) solid 0.1rem;
+                color: lighten($secondary, 15%);
+                &:hover {
+                    color: lighten($secondary, 15%);
+                }
+            }
+        }
+
+        &.btn-success {
+            background-color: lighten($success, 15%);
+            color: $light;
+
+            &-outline {
+                background-color: transparent;
+                border: lighten($success, 15%) solid 0.1rem;
+                color: lighten($success, 15%);
+                &:hover {
+                    color: lighten($success, 15%);
+                }
+            }
+        }
+
+        &.btn-danger {
+            background-color: lighten($danger, 15%);
+            color: $light;
+
+            &-outline {
+                background-color: transparent;
+                border: lighten($danger, 15%) solid 0.1rem;
+                color: lighten($danger, 15%);
+                &:hover {
+                    color: lighten($danger, 15%);
+                }
+            }
+        }
+
+        &.btn-warning {
+            background-color: lighten($warning, 15%);
+            color: $light;
+
+            &-outline {
+                background-color: transparent;
+                border: lighten($warning, 15%) solid 0.1rem;
+                color: lighten($warning, 15%);
+                &:hover {
+                    color: lighten($warning, 15%);
+                }
+            }
+        }
+
+        &.btn-info {
+            background-color: lighten($info, 15%);
+            color: $light;
+
+            &-outline {
+                background-color: transparent;
+                border: lighten($info, 15%) solid 0.1rem;
+                color: lighten($info, 15%);
+                &:hover {
+                    color: lighten($info, 15%);
+                }
+            }
+        }
+
+        &.btn-light {
+            background-color: $light;
+
+            &-outline {
+                background-color: transparent;
+                border: $light solid 0.1rem;
+                color: $light;
+                &:hover {
+                    color: $light;
+                }
+            }
+        }
+
+        &.btn-dark {
+            background-color: lighten($dark, 15%);
+            color: $light;
+
+            &-outline {
+                background-color: transparent;
+                border: lighten($dark, 15%) solid 0.1rem;
+                color: lighten($dark, 15%);
+                &:hover {
+                    color: lighten($dark, 15%);
+                }
+            }
+        }
+    }
 }
