@@ -3,45 +3,64 @@
 
 html {
     font-size: 10px;
-    font-family: "Roboto", sans-serif;;
+    font-family: "Roboto", sans-serif;
 }
 
-h1 {
+h1,
+.h1 {
     font-size: 3.2rem;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
 }
 
-h2 {
+h2,
+.h2 {
     font-size: 2.4rem;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
 }
 
-h3 {
+h3,
+.h3 {
     font-size: 1.872rem;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
 }
 
-h4 {
+h4,
+.h4 {
     font-size: 1.6rem;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
 }
 
-h5 {
+h5,
+.h5 {
     font-size: 1.328rem;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
 }
 
-h6 {
+h6,
+.h6 {
     font-size: 1.072rem;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
 }
 
-p {
+p,
+.p {
     font-size: 1.6rem;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
 }
 
 .text {
+    &-softer {
+        color: $secondary;
+        font-weight: 400;
+    }
+
     &-primary {
         color: $primary;
     }
@@ -72,5 +91,31 @@ p {
 
     &-dark {
         color: $dark;
+    }
+}
+
+.impact {
+    font-size: 10rem;
+    font-weight: 300;
+    
+    &-1 {
+        font-size: 9rem;
+        font-weight: 300;
+    }
+    &-2 {
+        font-size: 8rem;
+        font-weight: 300;
+    }
+    &-3 {
+        font-size: 7rem;
+        font-weight: 300;
+    }
+    &-4 {
+        font-size: 6rem;
+        font-weight: 300;
+    }
+    &-5 {
+        font-size: 5rem;
+        font-weight: 300;
     }
 }
