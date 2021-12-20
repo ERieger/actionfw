@@ -1,5 +1,3 @@
-// Add click animation for outline buttons
-
 .btn {
     // Define default buttons
     @include btn-std;
@@ -23,8 +21,6 @@
     &:focus {
         animation: btn-default-focus $btn-press-timing linear;
         box-shadow: 0 0 0 3px darken($light, 15%);
-        @include btn-std;
-        @include btn-sm;
     }
 
     &-rounded {

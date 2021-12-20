@@ -1,20 +1,20 @@
 // For responsive tables to work you need to have min width on the th and td elements.
 .table {
     box-sizing: border-box;
-    margin: 1.5rem;
-    max-width: calc(100% - 3rem);
+    margin: $table-std-margin;
+    max-width: calc(100% - get-side($table-std-margin, left) - get-side($table-std-margin, right));
     width: 100%;
     background-color: transparent;
     border-left: none;
     border-right: none;
     border-spacing: 0; // Remove cell spacing
     border-collapse: collapse; // Prevent double border on cell touch
-    font-size: 1.4rem;
+    font-size: $table-font-size;
 
     &.table-sm {
         th,
         td {
-            padding: 0.5rem 1rem;
+            padding: $table-sm-cell-padding;
         }
     }
 
@@ -34,7 +34,7 @@
 
     th,
     td {
-        padding: 1rem 2rem;
+        padding: $table-std-cell-padding;
         border-bottom: $secondary solid 0.1rem;
         text-align: left;
     }
@@ -67,13 +67,7 @@
     }
 
     &.table-borderless {
-        thead {
-            border: none;
-        }
-        th {
-            border: none;
-        }
-        td {
+        thead,th, td {
             border: none;
         }
     }
@@ -91,12 +85,12 @@
     }
 
     caption {
-        padding: 2rem;
-        padding-left: 0;
+        padding: $caption-padding;
+        padding-left: 0; // Remember to change this based on caption positon
         caption-side: bottom;
         text-align: left;
         font-style: italic;
-        color: darken($secondary, 20%);
+        color: $secondary;
     }
 }
 
@@ -139,31 +133,31 @@
     }
 
     &-xs {
-        @media only screen and (max-width: $bp-xs-max) {
+        @media only screen and (max-width: $bp-phones) {
             overflow-x: scroll;
         }
     }
 
     &-sm {
-        @media only screen and (max-width: $bp-sm-min) {
+        @media only screen and (max-width: $bp-large-phones) {
             overflow-x: scroll;
         }
     }
 
     &-md {
-        @media only screen and (max-width: $bp-md-min) {
+        @media only screen and (max-width: $bp-tablets) {
             overflow-x: scroll;
         }
     }
 
     &-lg {
-        @media only screen and (max-width: $bp-lg-min) {
+        @media only screen and (max-width: $bp-md) {
             overflow-x: scroll;
         }
     }
 
     &-xl {
-        @media only screen and (max-width: $bp-xl-min) {
+        @media only screen and (max-width: $bp-lg) {
             overflow-x: scroll;
         }
     }

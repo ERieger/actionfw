@@ -4,21 +4,21 @@
 }
 
 @mixin btn-std {
-    padding: 1rem 2rem;
-    margin: 1rem;
+    padding: $btn-std-padding;
+    margin: $btn-std-margin;
 }
 
 // Small button
 @mixin btn-sm {
     &.btn-sm {
-        padding: 0.4rem 1.5rem;
-        margin: 0.6rem;
+        padding: $btn-sm-padding;
+        margin: $btn-sm-margin;
     }
 }
 
 @mixin btn-std-outline {
-    padding: .9rem 2.7rem;
-    margin: 1rem;
+    padding: $btn-std-padding;
+    margin: $btn-std-margin;
 }
 
 // Button styles

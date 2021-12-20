@@ -1,12 +1,32 @@
-// TIMING
-$btn-press-timing: .3s;
-
-// RESPONSIVE BREAKPOINTS
-$bp-xs-max: 400px; // Extra small devices (phones, 600px and down)
-$bp-sm-min: 600px; // Small devices (portrait tablets and large phones, 600px and up)
-$bp-md-min: 768px; // Medium devices (landscape tablets, 786px and up)
-$bp-lg-min: 992px; // Large devices (laptops/desktops, 992px and up)
-$bp-xl-min: 1200px; // Extra large devices (large laptops and desktops, 1200px and up)
+// Responsive Breakpoints
+$bp-phones: 40rem; // Extra small devices (phones, 600px and down)
+$bp-large-phones: 60rem; // Small devices (portrait tablets and large phones, 600px and up)
+$bp-tablets: 7.68rem; // Medium devices (landscape tablets, 786px and up)
+$bp-md: 99.2rem; // Large devices (laptops/desktops, 992px and up)
+$bp-lg: 120rem; // Extra large devices (large laptops and desktops, 1200px and up)
 
 $cell-bp: min-content;
 // Breakpoints from https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
+
+// Typography
+
+
+// Buttons Options
+$btn-press-timing: .3s;
+
+$btn-std-padding: 1rem 2rem;
+$btn-std-margin: 1rem 1rem;
+
+$btn-sm-padding: 0.5rem 1.5rem;
+$btn-sm-margin: 0.5rem 0.5rem;
+
+// Tables Options
+$table-std-margin: 1.5rem 1.5rem;
+$table-std-cell-padding: 1rem 2rem;
+
+$table-font-size: 1.4rem;
+
+$table-sm-cell-padding: 0.5rem 1rem;
+
+// Caption Options
+$caption-padding: 2rem;
