@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 html {
   font-size: 0.625rem;
   font-family: "Roboto", sans-serif;
@@ -84,27 +83,27 @@ p,
 
 .impact {
   font-size: 10rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 .impact-1 {
   font-size: 9rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 .impact-2 {
   font-size: 8rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 .impact-3 {
   font-size: 7rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 .impact-4 {
   font-size: 6rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 .impact-5 {
   font-size: 5rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 @keyframes btn-default-focus {
@@ -696,7 +695,7 @@ p,
   color: #e9e9e9;
 }
 .btn.btn-light {
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #212529;
 }
 .btn.btn-light.btn-sm {
@@ -711,7 +710,7 @@ p,
   box-shadow: 0 0 0 3px #d0d0d0;
 }
 .btn.btn-light-rounded {
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #212529;
   border-radius: 50rem;
 }
@@ -727,7 +726,7 @@ p,
   box-shadow: 0 0 0 3px #d0d0d0;
 }
 .btn.btn-light-outline {
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #212529;
   border: #afb1b4 solid 0.1rem;
   background-color: transparent;
@@ -752,7 +751,7 @@ p,
 }
 .btn.btn-light-outline-rounded {
   border-radius: 50rem;
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #212529;
   border: #afb1b4 solid 0.1rem;
   background-color: transparent;
@@ -856,8 +855,10 @@ p,
   color: #e9e9e9;
 }
 .btn:disabled {
-  pointer-events: none;
   color: #c3c3c3;
+}
+.btn:disabled:hover {
+  cursor: not-allowed;
 }
 .btn:disabled.btn-primary {
   background-color: #55a7ff;
@@ -1088,113 +1089,6 @@ p,
   .table-responsive-xl {
     overflow-x: scroll;
   }
-}
-
-html {
-  font-size: 0.625rem;
-  font-family: "Roboto", sans-serif;
-}
-
-h1,
-.h1 {
-  font-size: 3.2rem;
-  padding: 0.5rem 1.5rem;
-  font-weight: bolder;
-}
-
-h2,
-.h2 {
-  font-size: 2.4rem;
-  padding: 0.5rem 1.5rem;
-  font-weight: bolder;
-}
-
-h3,
-.h3 {
-  font-size: 1.872rem;
-  padding: 0.5rem 1.5rem;
-  font-weight: bolder;
-}
-
-h4,
-.h4 {
-  font-size: 1.6rem;
-  padding: 0.5rem 1.5rem;
-  font-weight: bolder;
-}
-
-h5,
-.h5 {
-  font-size: 1.328rem;
-  padding: 0.5rem 1.5rem;
-  font-weight: bolder;
-}
-
-h6,
-.h6 {
-  font-size: 1.072rem;
-  padding: 0.5rem 1.5rem;
-  font-weight: bolder;
-}
-
-p,
-.p {
-  font-size: 1.6rem;
-  padding: 0.5rem 1.5rem;
-}
-
-.text-softer {
-  color: #afb1b4;
-  font-weight: 400;
-}
-.text-primary {
-  color: #087fff;
-}
-.text-secondary {
-  color: #afb1b4;
-}
-.text-success {
-  color: #5aa336;
-}
-.text-danger {
-  color: #cf3419;
-}
-.text-warning {
-  color: #e8ae25;
-}
-.text-info {
-  color: #3aa2d3;
-}
-.text-light {
-  color: #e9e9e9;
-}
-.text-dark {
-  color: #212529;
-}
-
-.impact {
-  font-size: 10rem;
-  font-weight: 300;
-}
-.impact-1 {
-  font-size: 9rem;
-  font-weight: 300;
-}
-.impact-2 {
-  font-size: 8rem;
-  font-weight: 300;
-}
-.impact-3 {
-  font-size: 7rem;
-  font-weight: 300;
-}
-.impact-4 {
-  font-size: 6rem;
-  font-weight: 300;
-}
-.impact-5 {
-  font-size: 5rem;
-  font-weight: 300;
 }
 
 .btn {
@@ -1741,7 +1635,7 @@ p,
   color: #e9e9e9;
 }
 .btn.btn-light {
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #212529;
 }
 .btn.btn-light.btn-sm {
@@ -1756,7 +1650,7 @@ p,
   box-shadow: 0 0 0 3px #d0d0d0;
 }
 .btn.btn-light-rounded {
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #212529;
   border-radius: 50rem;
 }
@@ -1772,7 +1666,7 @@ p,
   box-shadow: 0 0 0 3px #d0d0d0;
 }
 .btn.btn-light-outline {
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #212529;
   border: #afb1b4 solid 0.1rem;
   background-color: transparent;
@@ -1797,7 +1691,7 @@ p,
 }
 .btn.btn-light-outline-rounded {
   border-radius: 50rem;
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #212529;
   border: #afb1b4 solid 0.1rem;
   background-color: transparent;
@@ -1901,8 +1795,10 @@ p,
   color: #e9e9e9;
 }
 .btn:disabled {
-  pointer-events: none;
   color: #c3c3c3;
+}
+.btn:disabled:hover {
+  cursor: not-allowed;
 }
 .btn:disabled.btn-primary {
   background-color: #55a7ff;

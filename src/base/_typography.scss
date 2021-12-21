@@ -1,4 +1,4 @@
-// External Dependecy
+// External Dependecies
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 html {
@@ -8,50 +8,50 @@ html {
 
 h1,
 .h1 {
-    font-size: 3.2rem;
-    padding: 0.5rem 1.5rem;
-    font-weight: bolder;
+    font-size: $text-h1-size;
+    padding: $text-padding;
+    font-weight: $text-head-weight;
 }
 
 h2,
 .h2 {
-    font-size: 2.4rem;
-    padding: 0.5rem 1.5rem;
-    font-weight: bolder;
+    font-size: $text-h2-size;
+    padding: $text-padding;
+    font-weight: $text-head-weight;
 }
 
 h3,
 .h3 {
-    font-size: 1.872rem;
-    padding: 0.5rem 1.5rem;
-    font-weight: bolder;
+    font-size: $text-h3-size;
+    padding: $text-padding;
+    font-weight: $text-head-weight;
 }
 
 h4,
 .h4 {
-    font-size: 1.6rem;
-    padding: 0.5rem 1.5rem;
-    font-weight: bolder;
+    font-size: $text-h4-size;
+    padding: $text-padding;
+    font-weight: $text-head-weight;
 }
 
 h5,
 .h5 {
-    font-size: 1.328rem;
-    padding: 0.5rem 1.5rem;
-    font-weight: bolder;
+    font-size: $text-h5-size;
+    padding: $text-padding;
+    font-weight: $text-head-weight;
 }
 
 h6,
 .h6 {
-    font-size: 1.072rem;
-    padding: 0.5rem 1.5rem;
-    font-weight: bolder;
+    font-size: $text-h6-size;
+    padding: $text-padding;
+    font-weight: $text-head-weight;
 }
 
 p,
 .p {
-    font-size: 1.6rem;
-    padding: 0.5rem 1.5rem;
+    font-size: $text-p-size;
+    padding: $text-padding;
 }
 
 .text {
@@ -95,26 +95,26 @@ p,
 
 .impact {
     font-size: 10rem;
-    font-weight: 300;
+    font-weight: $text-impact-weight;
 
     &-1 {
         font-size: 9rem;
-        font-weight: 300;
+        font-weight: $text-impact-weight;
     }
     &-2 {
         font-size: 8rem;
-        font-weight: 300;
+        font-weight: $text-impact-weight;
     }
     &-3 {
         font-size: 7rem;
-        font-weight: 300;
+        font-weight: $text-impact-weight;
     }
     &-4 {
         font-size: 6rem;
-        font-weight: 300;
+        font-weight: $text-impact-weight;
     }
     &-5 {
         font-size: 5rem;
-        font-weight: 300;
+        font-weight: $text-impact-weight;
     }
 }

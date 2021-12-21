@@ -177,8 +177,12 @@
     }
 
     &:disabled {
-        pointer-events: none;
         color: darken($light, 15%);
+
+        &:hover {
+            cursor: not-allowed;
+        }
+
         // First button commented (same for the rest)
         &.btn-primary {
             background-color: lighten($primary, 15%);

@@ -107,7 +107,7 @@
 }
 
 @mixin btn-light {
-    background-color: $light;
+    background-color: $white;
     color: $dark;
     @include btn-sm;
 
