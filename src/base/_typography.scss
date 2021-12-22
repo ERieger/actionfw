@@ -55,11 +55,18 @@ p,
 }
 
 .text {
+    // Text modifiers
     &-softer {
         color: $secondary;
         font-weight: 400;
     }
 
+    &-important {
+        font-size: $text-important-size;
+        font-weight: $text-impact-weight;
+    }
+
+    // Colours
     &-primary {
         color: $primary;
     }
@@ -94,27 +101,27 @@ p,
 }
 
 .impact {
-    font-size: 10rem;
+    font-size: $text-impact-size-root;
     font-weight: $text-impact-weight;
 
     &-1 {
-        font-size: 9rem;
+        font-size: calc($text-impact-size-root - 1rem);
         font-weight: $text-impact-weight;
     }
     &-2 {
-        font-size: 8rem;
+        font-size: calc($text-impact-size-root - 2rem);
         font-weight: $text-impact-weight;
     }
     &-3 {
-        font-size: 7rem;
+        font-size: calc($text-impact-size-root - 3rem);
         font-weight: $text-impact-weight;
     }
     &-4 {
-        font-size: 6rem;
+        font-size: calc($text-impact-size-root - 4rem);
         font-weight: $text-impact-weight;
     }
     &-5 {
-        font-size: 5rem;
+        font-size: calc($text-impact-size-root - 5rem);
         font-weight: $text-impact-weight;
     }
 }

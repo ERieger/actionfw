@@ -1,8 +1,8 @@
 // For responsive tables to work you need to have min width on the th and td elements.
 .table {
     box-sizing: border-box;
-    margin: $table-std-margin;
-    max-width: calc(100% - get-side($table-std-margin, left) - get-side($table-std-margin, right));
+    @extend .spaced;
+    max-width: calc(100% - get-side($global-spaced-margin, left) - get-side($global-spaced-margin, right));
     width: 100%;
     background-color: transparent;
     border-left: none;
@@ -67,7 +67,9 @@
     }
 
     &.table-borderless {
-        thead,th, td {
+        thead,
+        th,
+        td {
             border: none;
         }
     }

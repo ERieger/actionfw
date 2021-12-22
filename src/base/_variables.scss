@@ -8,7 +8,10 @@ $bp-lg: 120rem; // Extra large devices (large laptops and desktops, 1200px and u
 $cell-bp: min-content;
 // Breakpoints from https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
 
-// Typography
+// Global settings
+$global-spaced-margin: 1.5rem;
+
+// Typography Settings
 $text-padding: 0.5rem 1.5rem;
 $text-head-weight: bolder;
 
@@ -21,7 +24,10 @@ $text-h6-size: 1.072rem;
 
 $text-p-size: 1.6rem;
 
-$text-impact-weight: 200;
+$text-impact-size-root: 10rem; // All smaller impact headers will scale down from this
+$text-impact-weight: 200; // Also sets weight of important text
+
+$text-important-size: 2rem;
 
 // Buttons Options
 $btn-press-timing: .3s;
