@@ -1,0 +1,28 @@
+.list {
+    font-size: $text-p-size;
+    list-style-type: disc;
+
+    margin-left: 4rem;
+
+    li {
+        padding-left: 1.5rem;
+    }
+
+    &-nostyle {
+        li {
+            padding-left: 0;
+        }
+        list-style-type: none;
+        margin-left: 1rem;
+    }
+
+    &-inline {
+        @extend .list-nostyle;
+        margin-left: 1rem;
+    }
+
+    &-inline-item {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}

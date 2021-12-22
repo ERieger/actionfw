@@ -64,6 +64,29 @@ p,
   font-size: 2rem;
   font-weight: 200;
 }
+.text-lighter {
+  font-weight: 300;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-overflow {
+  white-space: nowrap;
+}
+.text-turncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .text-primary {
   color: #087fff;
 }
@@ -87,6 +110,49 @@ p,
 }
 .text-dark {
   color: #212529;
+}
+
+mark,
+.mark {
+  background-color: #f2d081;
+  padding: 0.2rem 0.3rem;
+}
+
+del,
+.del,
+s,
+.s {
+  text-decoration: line-through;
+}
+
+ins,
+.ins,
+u,
+.u {
+  text-decoration: underline;
+}
+
+small,
+.small {
+  font-size: smaller;
+}
+
+strong,
+.strong,
+b,
+.b {
+  font: bolder;
+}
+
+em,
+.em,
+i,
+.i {
+  font: italic;
+}
+
+abbr {
+  cursor: help;
 }
 
 .impact {
@@ -159,6 +225,29 @@ p,
     background-color: #212529;
   }
 }
+.list {
+  font-size: 1.6rem;
+  list-style-type: disc;
+  margin-left: 4rem;
+}
+.list li {
+  padding-left: 1.5rem;
+}
+.list-nostyle, .list-inline {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+.list-nostyle li, .list-inline li {
+  padding-left: 0;
+}
+.list-inline {
+  margin-left: 1rem;
+}
+.list-inline-item {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
 .btn {
   padding: 1rem 2rem;
   margin: 1rem 1rem;

@@ -66,6 +66,38 @@ p,
         font-weight: $text-impact-weight;
     }
 
+    &-lighter {
+        font-weight: $text-light-weight;
+    }
+
+    // Text alignment
+    &-justify {
+        text-align: justify;
+    }
+
+    &-left {
+        text-align: left;
+    }
+
+    &-center {
+        text-align: center;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    // Overflow
+    &-overflow {
+        white-space: nowrap;
+    }
+
+    &-turncate {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     // Colours
     &-primary {
         color: $primary;
@@ -98,6 +130,51 @@ p,
     &-dark {
         color: $dark;
     }
+}
+
+// Extended text modifiers
+mark,
+.mark {
+    background-color: lighten($warning, 20%);
+    padding: 0.2rem 0.3rem;
+}
+
+del,
+.del,
+s,
+.s {
+    text-decoration: line-through;
+}
+
+ins,
+.ins,
+u,
+.u {
+    text-decoration: underline;
+}
+
+small,
+.small {
+    font-size: $text-small-size;
+}
+
+strong,
+.strong,
+b,
+.b {
+    font: bolder;
+}
+
+em,
+.em,
+i,
+.i {
+    font: italic;
+}
+
+// Abbreviations
+abbr {
+    cursor: help;
 }
 
 .impact {
