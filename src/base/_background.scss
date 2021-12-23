@@ -1,3 +1,95 @@
 .bg {
-    
+    &-primary {
+        background-color: $primary;
+    }
+
+    &-secondary {
+        background-color: $secondary;
+    }
+
+    &-success {
+        background-color: $success;
+    }
+
+    &-danger {
+        background-color: $danger;
+    }
+
+    &-warning {
+        background-color: $warning;
+    }
+
+    &-info {
+        background-color: $info;
+    }
+
+    &-light {
+        background-color: $light;
+    }
+
+    &-dark {
+        background-color: $dark;
+    }
+
+    &-white {
+        background-color: $white;
+    }
+
+    &-black {
+        background-color: $black;
+    }
+
+    //Light Colours
+    &-primary-light {
+        background-color: $primary-light;
+    }
+
+    &-secondary-light {
+        background-color: $secondary-light;
+    }
+    &-success-light {
+        background-color: $success-light;
+    }
+    &-danger-light {
+        background-color: $danger-light;
+    }
+    &-warning-light {
+        background-color: $warning-light;
+    }
+    &-info-light {
+        background-color: $info-light;
+    }
+    &-light-light {
+        background-color: $light-light;
+    }
+    &-dark-light {
+        background-color: $dark-light;
+    }
+
+    // Dark Colours
+    &-primary-dark {
+        background-color: $primary-dark;
+    }
+
+    &-secondary-dark {
+        background-color: $secondary-dark;
+    }
+    &-success-dark {
+        background-color: $success-dark;
+    }
+    &-danger-dark {
+        background-color: $danger-dark;
+    }
+    &-warning-dark {
+        background-color: $warning-dark;
+    }
+    &-info-dark {
+        background-color: $info-dark;
+    }
+    &-light-dark {
+        background-color: $light-dark;
+    }
+    &-dark-dark {
+        background-color: $dark-dark;
+    }
 }

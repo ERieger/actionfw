@@ -147,6 +147,68 @@ a,
     &-dark {
         color: $dark;
     }
+
+    &-white {
+        color: $white;
+    }
+
+    &-black {
+        color: $black;
+    }
+
+    //Light Colours
+    &-primary-light {
+        color: $primary-light;
+    }
+
+    &-secondary-light {
+        color: $secondary-light;
+    }
+    &-success-light {
+        color: $success-light;
+    }
+    &-danger-light {
+        color: $danger-light;
+    }
+    &-warning-light {
+        color: $warning-light;
+    }
+    &-info-light {
+        color: $info-light;
+    }
+    &-light-light {
+        color: $light-light;
+    }
+    &-dark-light {
+        color: $dark-light;
+    }
+
+    // Dark Colours
+    &-primary-dark {
+        color: $primary-dark;
+    }
+
+    &-secondary-dark {
+        color: $secondary-dark;
+    }
+    &-success-dark {
+        color: $success-dark;
+    }
+    &-danger-dark {
+        color: $danger-dark;
+    }
+    &-warning-dark {
+        color: $warning-dark;
+    }
+    &-info-dark {
+        color: $info-dark;
+    }
+    &-light-dark {
+        color: $light-dark;
+    }
+    &-dark-dark {
+        color: $dark-dark;
+    }
 }
 
 a {
