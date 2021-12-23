@@ -51,7 +51,10 @@ h6,
 }
 
 p,
-.p {
+.p,
+.list,
+a,
+.a {
   font-size: 1.6rem;
   padding: 0.5rem 1.5rem;
 }
@@ -66,6 +69,15 @@ p,
 }
 .text-lighter {
   font-weight: 300;
+}
+.text-toupper {
+  text-transform: uppercase;
+}
+.text-tolower {
+  text-transform: lowercase;
+}
+.text-tocapital {
+  text-transform: capitalize;
 }
 .text-justify {
   text-align: justify;
@@ -110,6 +122,64 @@ p,
 }
 .text-dark {
   color: #212529;
+}
+
+a {
+  color: #087fff;
+}
+a:hover {
+  color: #005abb;
+}
+a:focus {
+  color: #004ea1;
+}
+a.text-primary:hover {
+  color: #005abb;
+}
+a.text-primary:focus {
+  color: #004ea1;
+}
+a.text-secondary:hover {
+  color: #888b8f;
+}
+a.text-secondary:focus {
+  color: #7a7e83;
+}
+a.text-success:hover {
+  color: #3a6a23;
+}
+a.text-success:focus {
+  color: #30561d;
+}
+a.text-danger:hover {
+  color: #8b2311;
+}
+a.text-danger:focus {
+  color: #741d0e;
+}
+a.text-warning:hover {
+  color: #ae8012;
+}
+a.text-warning:focus {
+  color: #976f10;
+}
+a.text-info:hover {
+  color: #23769d;
+}
+a.text-info:focus {
+  color: #1e6789;
+}
+a.text-light:hover {
+  color: #c3c3c3;
+}
+a.text-light:focus {
+  color: #b6b6b6;
+}
+a.text-dark:hover {
+  color: black;
+}
+a.text-dark:focus {
+  color: black;
 }
 
 mark,
@@ -226,7 +296,6 @@ abbr {
   }
 }
 .list {
-  font-size: 1.6rem;
   list-style-type: disc;
   margin-left: 4rem;
 }

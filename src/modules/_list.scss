@@ -1,5 +1,5 @@
 .list {
-    font-size: $text-p-size;
+    @extend .p;
     list-style-type: disc;
 
     margin-left: 4rem;

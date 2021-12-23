@@ -54,6 +54,11 @@ p,
     padding: $text-padding;
 }
 
+a,
+.a {
+    @extend .p;
+}
+
 .text {
     // Text modifiers
     &-softer {
@@ -68,6 +73,18 @@ p,
 
     &-lighter {
         font-weight: $text-light-weight;
+    }
+
+    &-toupper {
+        text-transform: uppercase;
+    }
+
+    &-tolower {
+        text-transform: lowercase;
+    }
+
+    &-tocapital {
+        text-transform: capitalize;
     }
 
     // Text alignment
@@ -129,6 +146,82 @@ p,
 
     &-dark {
         color: $dark;
+    }
+}
+
+a {
+    @extend .p;
+    color: $primary;
+    &:hover {
+        color: darken($primary, 15%);
+    }
+    &:focus {
+        color: darken($primary, 20%);
+    }
+
+    &.text-primary {
+        &:hover {
+            color: darken($primary, 15%);
+        }
+        &:focus {
+            color: darken($primary, 20%);
+        }
+    }
+    &.text-secondary {
+        &:hover {
+            color: darken($secondary, 15%);
+        }
+        &:focus {
+            color: darken($secondary, 20%);
+        }
+    }
+    &.text-success {
+        &:hover {
+            color: darken($success, 15%);
+        }
+        &:focus {
+            color: darken($success, 20%);
+        }
+    }
+    &.text-danger {
+        &:hover {
+            color: darken($danger, 15%);
+        }
+        &:focus {
+            color: darken($danger, 20%);
+        }
+    }
+    &.text-warning {
+        &:hover {
+            color: darken($warning, 15%);
+        }
+        &:focus {
+            color: darken($warning, 20%);
+        }
+    }
+    &.text-info {
+        &:hover {
+            color: darken($info, 15%);
+        }
+        &:focus {
+            color: darken($info, 20%);
+        }
+    }
+    &.text-light {
+        &:hover {
+            color: darken($light, 15%);
+        }
+        &:focus {
+            color: darken($light, 20%);
+        }
+    }
+    &.text-dark {
+        &:hover {
+            color: darken($dark, 15%);
+        }
+        &:focus {
+            color: darken($dark, 20%);
+        }
     }
 }
 
