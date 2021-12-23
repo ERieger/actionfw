@@ -1,9 +1,6 @@
-// External Dependecies
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
 html {
     font-size: 0.625rem; // Equivalent to 10px with root font size 16px. (Allows code to be responsive to user defined font size)
-    font-family: "Roboto", sans-serif;
+    font-family: $global-font;
 }
 
 h1,
