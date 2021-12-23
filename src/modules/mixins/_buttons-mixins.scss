@@ -28,11 +28,11 @@
     @include btn-sm;
 
     &:hover {
-        background-color: darken($primary, 10%);
+        background-color: $primary-dark;
     }
     &:focus {
         animation: btn-primary-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px lighten($primary, 15%);
+        box-shadow: 0 0 0 3px $primary-light;
     }
 }
 
@@ -42,11 +42,11 @@
     @include btn-sm;
 
     &:hover {
-        background-color: darken($secondary, 10%);
+        background-color: $secondary-dark;
     }
     &:focus {
         animation: btn-secondary-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px lighten($secondary, 10%);
+        box-shadow: 0 0 0 3px $secondary-light;
     }
 }
 
@@ -56,11 +56,11 @@
     @include btn-sm;
 
     &:hover {
-        background-color: darken($success, 10%);
+        background-color: $success-dark;
     }
     &:focus {
         animation: btn-success-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px lighten($success, 15%);
+        box-shadow: 0 0 0 3px $success-light;
     }
 }
 
@@ -70,11 +70,11 @@
     @include btn-sm;
 
     &:hover {
-        background-color: darken($danger, 10%);
+        background-color: $danger-dark;
     }
     &:focus {
         animation: btn-danger-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px lighten($danger, 15%);
+        box-shadow: 0 0 0 3px $danger-light;
     }
 }
 
@@ -84,11 +84,11 @@
     @include btn-sm;
 
     &:hover {
-        background-color: darken($warning, 10%);
+        background-color: $warning-dark;
     }
     &:focus {
         animation: btn-warning-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px lighten($warning, 15%);
+        box-shadow: 0 0 0 3px $warning-light;
     }
 }
 
@@ -98,11 +98,11 @@
     @include btn-sm;
 
     &:hover {
-        background-color: darken($info, 10%);
+        background-color: $info-dark;
     }
     &:focus {
         animation: btn-info-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px lighten($info, 15%);
+        box-shadow: 0 0 0 3px $info-light;
     }
 }
 
@@ -112,11 +112,11 @@
     @include btn-sm;
 
     &:hover {
-        background-color: darken($light, 5%);
+        background-color: $light-dark;
     }
     &:focus {
         animation: btn-light-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px darken($light, 10%);
+        box-shadow: 0 0 0 3px $light-dark;
     }
 }
 
@@ -126,11 +126,11 @@
     @include btn-sm;
 
     &:hover {
-        background-color: darken($dark, 10%);
+        background-color: $dark-dark;
     }
     &:focus {
         animation: btn-dark-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px lighten($dark, 15%);
+        box-shadow: 0 0 0 3px $dark-light;
     }
 }
 
@@ -230,7 +230,7 @@
     color: $secondary;
     @include btn-std-outline;
     &:hover {
-        background-color: darken($light, 5%);
+        background-color: $light-dark;
         color: $dark;
     }
 }

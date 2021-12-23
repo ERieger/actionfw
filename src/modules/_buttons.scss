@@ -15,12 +15,12 @@
     backface-visibility: hidden; // Attempt to fix animation jitter
 
     &:hover {
-        background-color: darken($light, 5%);
+        background-color: $light-dark;
     }
 
     &:focus {
         animation: btn-default-focus $btn-press-timing linear;
-        box-shadow: 0 0 0 3px darken($light, 15%);
+        box-shadow: 0 0 0 3px $light-dark;
     }
 
     &-rounded {
@@ -177,10 +177,15 @@
     }
 
     &:disabled {
-        color: darken($light, 15%);
+        color: $light-dark;
 
         &:hover {
             cursor: not-allowed;
+            background-color: #e9e9e9;
+        }
+
+        &.btn-outline:hover {
+            background-color: transparent;
         }
 
         // First button commented (same for the rest)
