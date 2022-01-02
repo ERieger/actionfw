@@ -1,0 +1,62 @@
+.label {
+    align-items: center;
+    background-color: $dark;
+    border-radius: $label-radius-defualt;
+    color: $light;
+    display: inline-flex;
+    font-size: small;
+    height: 2.5rem;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: $label-size-std;
+    padding-right: $label-size-std;
+    white-space: nowrap;
+    margin: $label-margin;
+
+    &-md {
+        line-height: 3;
+        padding-left: $label-size-md;
+        padding-right: $label-size-md;
+    }
+
+    &-primary {
+        color: $light;
+        background-color: $primary;
+    }
+    &-secondary {
+        color: $light;
+        background-color: $secondary;
+    }
+    &-success {
+        color: $light;
+        background-color: $success;
+    }
+    &-danger {
+        color: $light;
+        background-color: $danger;
+    }
+    &-warning {
+        color: $light;
+        background-color: $warning;
+    }
+    &-info {
+        color: $light;
+        background-color: $info;
+    }
+    &-light {
+        color: $dark;
+        background-color: $light;
+    }
+    &-dark {
+        color: $light;
+        background-color: $dark;
+    }
+    &-blacl {
+        color: $white;
+        background-color: $black;
+    }
+    &-white {
+        color: $black;
+        background-color: $white;
+    }
+}
